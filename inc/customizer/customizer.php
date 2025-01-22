@@ -23,7 +23,7 @@ Kirki::add_panel(
 	'general-style',
 	array(
 		'priority' => $priority++,
-		'title'    => esc_html__( 'General Style', 'rubenz' ),
+		'title'    => esc_html__( 'General Style', 'fitso' ),
 		'icon'     => 'dashicons-admin-appearance',
 	)
 );
@@ -41,7 +41,7 @@ Kirki::add_panel(
 	'footer',
 	array(
 		'priority' => $priority++,
-		'title'    => esc_html__( 'Footer', 'rubenz' ),
+		'title'    => esc_html__( 'Footer', 'fitso' ),
 		'icon'     => 'dashicons-arrow-down-alt',
 	)
 );
@@ -59,7 +59,7 @@ Kirki::add_panel(
 	'blog',
 	array(
 		'priority' => $priority++,
-		'title'    => esc_html__( 'Blog', 'rubenz' ),
+		'title'    => esc_html__( 'Blog', 'fitso' ),
 		'icon'     => 'dashicons-editor-bold',
 	)
 );
@@ -72,7 +72,7 @@ Kirki::add_panel(
 	'theme_options',
 	array(
 		'priority' => $priority++,
-		'title'    => esc_html__( 'Theme Options', 'rubenz' ),
+		'title'    => esc_html__( 'Theme Options', 'fitso' ),
 		'icon'     => 'dashicons-admin-tools',
 	)
 );

@@ -6,7 +6,7 @@
  * ==========================================================================
  * ==========================================================================
  *
- * Rubenz – Creative Portfolio AJAX Template
+ * Fitso – Creative Portfolio AJAX Template
  *
  * [Table of Contents]
  *
@@ -2638,14 +2638,14 @@ function fixMobileBarHeight() {
 
 		vh = document.documentElement.clientHeight * 0.01;
 
-		$('#rubenz-fix-bar').html(':root { --fix-bar-vh: ' + vh + 'px; }\n');
+		$('#fitso-fix-bar').html(':root { --fix-bar-vh: ' + vh + 'px; }\n');
 
 	}
 
 	function createStyleElement() {
 
-		if (!$('#rubenz-fix-bar').length) {
-			$('head').append('<style id=\"rubenz-fix-bar\"></style>');
+		if (!$('#fitso-fix-bar').length) {
+			$('head').append('<style id=\"fitso-fix-bar\"></style>');
 		}
 
 	}

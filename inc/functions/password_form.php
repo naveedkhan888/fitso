@@ -25,8 +25,8 @@ function arts_password_form() {
 	$output_wrapper_end   = '</div>';
 
 	$output = '<form action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" class="js-ajax-form-password post-password-form" method="post">
-	<p class="post-password-form-message"><i class="post-password-form-message-icon material-icons">lock</i>' . esc_html__( 'This content is password protected. To view it please enter your password below:', 'rubenz' ) . '</p>
-	<div class="input-float input-search js-input-float">' . ' <input class="input-float__input input-search__input" name="post_password" id="' . $label . '" type="password" size="20" /><span class="input-float__label">' . esc_html__( 'Password', 'rubenz' ) . '</span><button class="input-search__submit" type="submit" name="Submit"><i class="material-icons">keyboard_arrow_right</i></button></div></form>
+	<p class="post-password-form-message"><i class="post-password-form-message-icon material-icons">lock</i>' . esc_html__( 'This content is password protected. To view it please enter your password below:', 'fitso' ) . '</p>
+	<div class="input-float input-search js-input-float">' . ' <input class="input-float__input input-search__input" name="post_password" id="' . $label . '" type="password" size="20" /><span class="input-float__label">' . esc_html__( 'Password', 'fitso' ) . '</span><button class="input-search__submit" type="submit" name="Submit"><i class="material-icons">keyboard_arrow_right</i></button></div></form>
 	';
 
 	// No cookie, the user has not sent anything until now.
@@ -39,7 +39,7 @@ function arts_password_form() {
 		return $output_wrapper_start . $output . $output_wrapper_end;
 	}
 
-	$error_message_html = '<div class="post-password-form-error"><strong>' . esc_html__( 'The password you entered is incorrect', 'rubenz' ) . '</strong></div>';
+	$error_message_html = '<div class="post-password-form-error"><strong>' . esc_html__( 'The password you entered is incorrect', 'fitso' ) . '</strong></div>';
 
 	// We have a cookie, but it doesn’t match the password. Output error message.
 	return $output_wrapper_start . $output . $error_message_html . $output_wrapper_end;

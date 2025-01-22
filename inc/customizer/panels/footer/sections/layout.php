@@ -7,17 +7,17 @@ $max_columns = 8;
  * Footer Container
  */
 Kirki::add_field(
-	'rubenz',
+	'fitso',
 	array(
 		'type'      => 'radio-buttonset',
 		'settings'  => 'footer_container',
-		'label'     => esc_html__( 'Container', 'rubenz' ),
+		'label'     => esc_html__( 'Container', 'fitso' ),
 		'section'   => 'layout',
 		'default'   => 'container-fluid',
 		'priority'  => $priority++,
 		'choices'   => array(
-			'container-fluid' => esc_html__( 'Fullwidth', 'rubenz' ),
-			'container'       => esc_html__( 'Boxed', 'rubenz' ),
+			'container-fluid' => esc_html__( 'Fullwidth', 'fitso' ),
+			'container'       => esc_html__( 'Boxed', 'fitso' ),
 		),
 		'transport' => 'postMessage',
 	)
@@ -27,12 +27,12 @@ Kirki::add_field(
  * Footer Layout
  */
 Kirki::add_field(
-	'rubenz',
+	'fitso',
 	array(
 		'type'        => 'slider',
 		'settings'    => 'footer_columns',
-		'label'       => esc_html__( 'Number of Columns', 'rubenz' ),
-		'description' => esc_html__( 'This setting creates a widget area per each column. You can edit your widgets in WordPress admin panel.', 'rubenz' ),
+		'label'       => esc_html__( 'Number of Columns', 'fitso' ),
+		'description' => esc_html__( 'This setting creates a widget area per each column. You can edit your widgets in WordPress admin panel.', 'fitso' ),
 		'section'     => 'layout',
 		'default'     => 3,
 		'priority'    => $priority++,
@@ -49,12 +49,12 @@ Kirki::add_field(
  * Mobile Ordering Info
  */
 Kirki::add_field(
-	'rubenz',
+	'fitso',
 	array(
 		'type'            => 'custom',
 		'settings'        => 'footer_columns_info',
-		'label'           => esc_html__( 'Mobile Columns Stack Order', 'rubenz' ),
-		'description'     => esc_html__( 'You can control how your columns stack on mobile screens. For example, you can place copyright column very first on desktop and reorder it as very last on mobile.', 'rubenz' ),
+		'label'           => esc_html__( 'Mobile Columns Stack Order', 'fitso' ),
+		'description'     => esc_html__( 'You can control how your columns stack on mobile screens. For example, you can place copyright column very first on desktop and reorder it as very last on mobile.', 'fitso' ),
 		'section'         => 'layout',
 		'priority'        => $priority++,
 		'active_callback' => array(
@@ -73,10 +73,10 @@ Kirki::add_field(
 
 for ( $i = 1; $i <= $max_columns; $i++ ) {
 
-	$descr = sprintf( '%1$s (%2$s %3$s)', esc_html__( 'Mobile Order', 'rubenz' ), esc_html__( 'Column', 'rubenz' ), $i );
+	$descr = sprintf( '%1$s (%2$s %3$s)', esc_html__( 'Mobile Order', 'fitso' ), esc_html__( 'Column', 'fitso' ), $i );
 
 	Kirki::add_field(
-		'rubenz',
+		'fitso',
 		array(
 			'type'            => 'slider',
 			'settings'        => 'order_column_' . $i,

@@ -33,7 +33,7 @@ $author                     = arts_get_post_author();
 
 	<?php if ( ! empty( $author['name'] ) && $post_show_author ) : ?>
 		<div class="post-preview__meta">
-			<span class="post-meta__item-text"><?php esc_html_e( 'by', 'rubenz' ); ?></span>
+			<span class="post-meta__item-text"><?php esc_html_e( 'by', 'fitso' ); ?></span>
 			<a href="<?php echo esc_url( $author['url'] ); ?>"><?php echo esc_html( $author['name'] ); ?></a>
 		</div>
 	<?php endif; ?>

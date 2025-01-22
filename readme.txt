@@ -1,4 +1,4 @@
-=== Rubenz ===
+=== Fitso ===
 
 Contributors: Artem Semkin
 Requires at least: 6.4
@@ -11,7 +11,7 @@ Crafted with love for creative folks to impress the visitors with stunning portf
 
 == Description ==
 
-Rubenz would be a great choice to launch a portfolio website for graphic & motion designers, interior designers, photographers and creative agencies.
+Fitso would be a great choice to launch a portfolio website for graphic & motion designers, interior designers, photographers and creative agencies.
 
 == Copyright ==
 

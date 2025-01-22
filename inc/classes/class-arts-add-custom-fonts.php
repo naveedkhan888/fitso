@@ -221,7 +221,7 @@ class Arts_Add_Custom_Fonts {
 		}
 
 		$custom_choice['families']['custom'] = array(
-			'text'     => esc_attr__( 'Custom Fonts', 'rubenz' ),
+			'text'     => esc_attr__( 'Custom Fonts', 'fitso' ),
 			'children' => self::$children,
 		);
 
@@ -240,7 +240,7 @@ class Arts_Add_Custom_Fonts {
 		
 		if ( ! empty (self::$css_to_print) ) {
 			add_action('wp_enqueue_scripts', function() {
-				wp_add_inline_style( 'rubenz-main-style', trim( self::$css_to_print ) );
+				wp_add_inline_style( 'fitso-main-style', trim( self::$css_to_print ) );
 			}, 30);
 		}
 	

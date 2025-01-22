@@ -12,7 +12,7 @@ function arts_init_navigation() {
 	if ( function_exists( 'register_nav_menus' ) ) {
 		register_nav_menus(
 			array(
-				'main_menu' => esc_html__( 'Main Menu', 'rubenz' ),
+				'main_menu' => esc_html__( 'Main Menu', 'fitso' ),
 			)
 		);
 	}

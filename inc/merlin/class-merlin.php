@@ -1578,7 +1578,7 @@ class Merlin {
 			<?php
 				/**
 				 * Theme functions and definitions.
-				 * This is a child theme of Rubenz.
+				 * This is a child theme of Fitso.
 				 *
 				 * @link https://developer.wordpress.org/themes/basics/theme-functions/
 				 */

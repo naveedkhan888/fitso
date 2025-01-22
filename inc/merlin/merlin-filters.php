@@ -7,7 +7,7 @@ add_filter( 'merlin_import_files', 'arts_merlin_import_files' );
 function arts_merlin_import_files() {
 	return array(
 		array(
-			'import_file_name'           => esc_html__( 'Rubenz Demo Data', 'rubenz' ),
+			'import_file_name'           => esc_html__( 'Fitso Demo Data', 'fitso' ),
 			'import_file_url'            => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/demo-data' ),
 			'import_widget_file_url'     => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/demo-widgets' ),
 			'import_customizer_file_url' => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/demo-customizer' ),
@@ -204,9 +204,9 @@ function arts_unset_default_sidebar_widgets() {
 	// so the widgets will be actually imported
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Fullscreen Menu Widgets', 'rubenz' ),
+			'name'          => esc_html__( 'Fullscreen Menu Widgets', 'fitso' ),
 			'id'            => 'header-sidebar',
-			'description'   => esc_html__( 'Appears on desktop in the page header if menu type is set to "fullscreen".', 'rubenz' ),
+			'description'   => esc_html__( 'Appears on desktop in the page header if menu type is set to "fullscreen".', 'fitso' ),
 			'before_widget' => '<div class="header__wrapper-property"><div class="figure-property split-text"><div class="widget widget_%2$s">',
 			'after_widget'  => '</div></div></div>',
 			'before_title'  => '<div class="figure-property__wrapper-heading split-text"><h6 class="widgettitle">',

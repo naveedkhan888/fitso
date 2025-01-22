@@ -8,7 +8,7 @@ $priority = 1;
 Kirki::add_section(
 	'layout',
 	array(
-		'title'    => esc_html__( 'Layout', 'rubenz' ),
+		'title'    => esc_html__( 'Layout', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'footer',
 	)

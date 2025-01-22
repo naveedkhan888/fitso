@@ -2,7 +2,7 @@
  * ==========================================================================
  * ==========================================================================
  *
- * Rubenz – Creative Portfolio AJAX Template
+ * Fitso – Creative Portfolio AJAX Template
  *
  * [Table of Contents]
  *
@@ -242,7 +242,7 @@ img {
   flex-direction: column;
 }
 
-[data-widget_type*=rubenz] .swiper-container-vertical.swiper-container-initialized > .swiper-wrapper, [data-widget_type*=rubenz] .swiper-container-horizontal.swiper-container-initialized > .swiper-wrapper {
+[data-widget_type*=fitso] .swiper-container-vertical.swiper-container-initialized > .swiper-wrapper, [data-widget_type*=fitso] .swiper-container-horizontal.swiper-container-initialized > .swiper-wrapper {
   overflow: initial !important;
 }
 
@@ -1697,7 +1697,7 @@ a.elementor-gallery-item {
 /*!========================================================================
  * 20. Grid
  * ======================================================================!*/
-.elementor-widget-rubenz-widget-portfolio-masonry-grid {
+.elementor-widget-fitso-widget-portfolio-masonry-grid {
   overflow: unset !important;
 }
 
@@ -6429,18 +6429,18 @@ cite:before {
 /*!========================================================================
  * 77. Widget Logo
  * ======================================================================!*/
-.widget_ruben_logo, .widget_rubenz_logo {
+.widget_ruben_logo, .widget_fitso_logo {
   max-width: 360px;
 }
-.widget_ruben_logo .logo, .widget_rubenz_logo .logo {
+.widget_ruben_logo .logo, .widget_fitso_logo .logo {
   margin-bottom: 2em;
 }
 
 @media screen and (max-width: 991px) {
-  .widget_ruben_logo, .widget_rubenz_logo {
+  .widget_ruben_logo, .widget_fitso_logo {
     max-width: 100%;
   }
-  .widget_ruben_logo .logo, .widget_rubenz_logo .logo {
+  .widget_ruben_logo .logo, .widget_fitso_logo .logo {
     margin-bottom: 1em;
   }
 }

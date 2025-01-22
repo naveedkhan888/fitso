@@ -5,7 +5,7 @@ $priority = 1;
 Kirki::add_section(
 	'smooth_scroll',
 	array(
-		'title'    => esc_html__( 'Smooth Scroll', 'rubenz' ),
+		'title'    => esc_html__( 'Smooth Scroll', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'theme_options',
 	)
@@ -15,7 +15,7 @@ get_template_part( '/inc/customizer/panels/theme-options/sections/smooth-scroll'
 Kirki::add_section(
 	'ajax_transitions',
 	array(
-		'title'    => esc_html__( 'AJAX Transitions', 'rubenz' ),
+		'title'    => esc_html__( 'AJAX Transitions', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'theme_options',
 	)
@@ -25,7 +25,7 @@ get_template_part( '/inc/customizer/panels/theme-options/sections/ajax-transitio
 Kirki::add_section(
 	'cursor_follower',
 	array(
-		'title'    => esc_html__( 'Mouse Cursor Follower', 'rubenz' ),
+		'title'    => esc_html__( 'Mouse Cursor Follower', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'theme_options',
 	)
@@ -35,7 +35,7 @@ get_template_part( '/inc/customizer/panels/theme-options/sections/cursor-followe
 Kirki::add_section(
 	'contact_form_7',
 	array(
-		'title'    => esc_html__( 'Contact Form 7', 'rubenz' ),
+		'title'    => esc_html__( 'Contact Form 7', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'theme_options',
 	)
@@ -45,7 +45,7 @@ get_template_part( '/inc/customizer/panels/theme-options/sections/contact-form-7
 Kirki::add_section(
 	'404',
 	array(
-		'title'    => esc_html__( 'Page 404', 'rubenz' ),
+		'title'    => esc_html__( 'Page 404', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'theme_options',
 	)
@@ -55,7 +55,7 @@ get_template_part( '/inc/customizer/panels/theme-options/sections/404' );
 Kirki::add_section(
 	'outdated_browsers',
 	array(
-		'title'    => esc_html__( 'Outdated Browsers', 'rubenz' ),
+		'title'    => esc_html__( 'Outdated Browsers', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'theme_options',
 	)
@@ -65,7 +65,7 @@ get_template_part( '/inc/customizer/panels/theme-options/sections/outdated-brows
 Kirki::add_section(
 	'lazy_images',
 	array(
-		'title'    => esc_html__( 'Lazy Images', 'rubenz' ),
+		'title'    => esc_html__( 'Lazy Images', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'theme_options',
 	)

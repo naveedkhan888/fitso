@@ -7,8 +7,8 @@ Kirki::add_field(
 	array(
 		'type'        => 'switch',
 		'settings'    => 'outdated_browsers_enabled',
-		'label'       => esc_html__( 'Enable Outdated Browser Notification', 'rubenz' ),
-		'description' => esc_html__( 'The theme is compatible only with modern browsers. In case a visitor landed on the website using an outdated browser (like Internet Explorer) there will appear a banner with the proposal to update a browser.', 'rubenz' ),
+		'label'       => esc_html__( 'Enable Outdated Browser Notification', 'fitso' ),
+		'description' => esc_html__( 'The theme is compatible only with modern browsers. In case a visitor landed on the website using an outdated browser (like Internet Explorer) there will appear a banner with the proposal to update a browser.', 'fitso' ),
 		'section'     => 'outdated_browsers',
 		'default'     => true,
 		'priority'    => $priority++,
@@ -22,7 +22,7 @@ Kirki::add_field(
 		'settings'        => 'outdated_browsers_prevew_button',
 		'section'         => 'outdated_browsers',
 		'priority'        => $priority++,
-		'default'         => esc_html__( 'Simulate Outdated Browser', 'rubenz' ),
+		'default'         => esc_html__( 'Simulate Outdated Browser', 'fitso' ),
 		'choices'         => array(
 			'element' => 'input',
 			'type'    => 'button',

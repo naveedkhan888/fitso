@@ -12,9 +12,9 @@ function arts_register_widget_areas() {
 
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Blog Sidebar', 'rubenz' ),
+			'name'          => esc_html__( 'Blog Sidebar', 'fitso' ),
 			'id'            => 'blog-sidebar',
-			'description'   => esc_html__( 'Appears in blog.', 'rubenz' ),
+			'description'   => esc_html__( 'Appears in blog.', 'fitso' ),
 			'before_widget' => '<section class="widget %2$s">',
 			'after_widget'  => '</section>',
 		)
@@ -23,9 +23,9 @@ function arts_register_widget_areas() {
 	if ( $menu_style == 'fullscreen' ) {
 		register_sidebar(
 			array(
-				'name'          => esc_html__( 'Fullscreen Menu Widgets', 'rubenz' ),
+				'name'          => esc_html__( 'Fullscreen Menu Widgets', 'fitso' ),
 				'id'            => 'header-sidebar',
-				'description'   => esc_html__( 'Appears on desktop in the page header if menu type is set to "fullscreen".', 'rubenz' ),
+				'description'   => esc_html__( 'Appears on desktop in the page header if menu type is set to "fullscreen".', 'fitso' ),
 				'before_widget' => '<div class="header__wrapper-property"><div class="figure-property"><div class="widget widget_%2$s split-text">',
 				'after_widget'  => '</div></div></div>',
 				'before_title'  => '<div class="figure-property__wrapper-heading"><h6 class="widgettitle split-text">',
@@ -37,9 +37,9 @@ function arts_register_widget_areas() {
 	for ( $i = 1; $i <= $footer_columns; $i++ ) {
 		register_sidebar(
 			array(
-				'name'          => sprintf( esc_html__( 'Footer %s Column', 'rubenz' ), $i ),
+				'name'          => sprintf( esc_html__( 'Footer %s Column', 'fitso' ), $i ),
 				'id'            => 'footer-sidebar-' . $i,
-				'description'   => esc_html__( 'Appears in Page Footer.', 'rubenz' ),
+				'description'   => esc_html__( 'Appears in Page Footer.', 'fitso' ),
 				'before_widget' => '<section id="%1$s" class="widget %2$s">',
 				'after_widget'  => '</section>',
 			)
@@ -48,9 +48,9 @@ function arts_register_widget_areas() {
 
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Footer Bottom Row', 'rubenz' ),
+			'name'          => esc_html__( 'Footer Bottom Row', 'fitso' ),
 			'id'            => 'footer-sidebar-bottom',
-			'description'   => esc_html__( 'Appears in Page Footer.', 'rubenz' ),
+			'description'   => esc_html__( 'Appears in Page Footer.', 'fitso' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 		)
@@ -59,9 +59,9 @@ function arts_register_widget_areas() {
 	if ( class_exists( 'SitePress' ) || class_exists( 'Polylang' ) || class_exists( 'TRP_Translate_Press' ) ) {
 		register_sidebar(
 			array(
-				'name'          => esc_html__( 'Language Switcher Area', 'rubenz' ),
+				'name'          => esc_html__( 'Language Switcher Area', 'fitso' ),
 				'id'            => 'lang-switcher-sidebar',
-				'description'   => esc_html__( 'Appears in the top menu.', 'rubenz' ),
+				'description'   => esc_html__( 'Appears in the top menu.', 'fitso' ),
 				'before_widget' => '<section id="%1$s" class="widget %2$s">',
 				'after_widget'  => '</section>',
 			)

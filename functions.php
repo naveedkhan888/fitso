@@ -14,7 +14,7 @@ if ( $theme_parent ) {
 	$theme_version = $theme_parent->Version;
 }
 
-define( 'ARTS_THEME_SLUG', 'rubenz' );
+define( 'ARTS_THEME_SLUG', 'fitso' );
 define( 'ARTS_THEME_PATH', get_template_directory() );
 define( 'ARTS_THEME_URL', get_template_directory_uri() );
 define( 'ARTS_THEME_VERSION', $theme_version );

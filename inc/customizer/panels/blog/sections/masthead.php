@@ -10,13 +10,13 @@ Kirki::add_field(
 	array(
 		'type'     => 'select',
 		'settings' => 'masthead_style',
-		'label'    => esc_html__( 'Style', 'rubenz' ),
+		'label'    => esc_html__( 'Style', 'fitso' ),
 		'section'  => 'blog_masthead',
 		'default'  => '',
 		'priority' => $priority++,
 		'choices'  => array(
-			'solid_color'      => esc_html__( 'Solid Color', 'rubenz' ),
-			'background_image' => esc_html__( 'Post Featured Image as Background', 'rubenz' ),
+			'solid_color'      => esc_html__( 'Solid Color', 'fitso' ),
+			'background_image' => esc_html__( 'Post Featured Image as Background', 'fitso' ),
 		),
 	)
 );
@@ -29,14 +29,14 @@ Kirki::add_field(
 	array(
 		'type'     => 'radio-buttonset',
 		'settings' => 'masthead_alignment',
-		'label'    => esc_html__( 'Content Alignment', 'rubenz' ),
+		'label'    => esc_html__( 'Content Alignment', 'fitso' ),
 		'section'  => 'blog_masthead',
 		'default'  => 'text-left',
 		'priority' => $priority++,
 		'choices'  => array(
-			'text-left'   => esc_html__( 'Left', 'rubenz' ),
-			'text-center' => esc_html__( 'Center', 'rubenz' ),
-			'text-right'  => esc_html__( 'Right', 'rubenz' ),
+			'text-left'   => esc_html__( 'Left', 'fitso' ),
+			'text-center' => esc_html__( 'Center', 'fitso' ),
+			'text-right'  => esc_html__( 'Right', 'fitso' ),
 		),
 	)
 );
@@ -46,7 +46,7 @@ Kirki::add_field(
 	array(
 		'type'            => 'slider',
 		'settings'        => 'masthead_overlay_opacity',
-		'label'           => esc_html__( 'Image Overlay Opacity', 'rubenz' ),
+		'label'           => esc_html__( 'Image Overlay Opacity', 'fitso' ),
 		'section'         => 'blog_masthead',
 		'default'         => 0.60,
 		'priority'        => $priority++,
@@ -77,7 +77,7 @@ Kirki::add_field(
 	array(
 		'type'            => 'switch',
 		'settings'        => 'masthead_image_parallax',
-		'label'           => esc_html__( 'Enable Parallax', 'rubenz' ),
+		'label'           => esc_html__( 'Enable Parallax', 'fitso' ),
 		'section'         => 'blog_masthead',
 		'default'         => true,
 		'priority'        => $priority++,
@@ -96,7 +96,7 @@ Kirki::add_field(
 	array(
 		'type'            => 'slider',
 		'settings'        => 'masthead_image_parallax_speed',
-		'label'           => esc_html__( 'Parallax Speed', 'rubenz' ),
+		'label'           => esc_html__( 'Parallax Speed', 'fitso' ),
 		'section'         => 'blog_masthead',
 		'default'         => 0.1,
 		'priority'        => $priority++,

@@ -40,7 +40,7 @@ function arts_filter_comment_form_default_fields( $args = array(), $post_id = nu
 				<div class="col form__col">
 					<label class="input-float js-input-float">
 						<input class="input-float__input" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" maxlength="245"' . $html_req . '/>' .
-							'<span class="input-float__label">' . esc_html__( 'Name', 'rubenz' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</span>
+							'<span class="input-float__label">' . esc_html__( 'Name', 'fitso' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</span>
 					</label>
 				</div>
 			</div>
@@ -50,7 +50,7 @@ function arts_filter_comment_form_default_fields( $args = array(), $post_id = nu
 				<div class="col form__col">
 					<label class="input-float js-input-float">
 						<input class="input-float__input" id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_email'] ) . '" size="30" maxlength="100" aria-describedby="email-notes"' . $html_req . ' />' .
-							'<span class="input-float__label">' . esc_html__( 'Email', 'rubenz' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</span>
+							'<span class="input-float__label">' . esc_html__( 'Email', 'fitso' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</span>
 					</label>
 				</div>
 			</div>
@@ -60,7 +60,7 @@ function arts_filter_comment_form_default_fields( $args = array(), $post_id = nu
 				<div class="col form__col">
 					<label class="input-float js-input-float">
 						<input class="input-float__input" id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" maxlength="200" />' .
-							'<span class="input-float__label">' . esc_html__( 'Website', 'rubenz' ) . '</span>
+							'<span class="input-float__label">' . esc_html__( 'Website', 'fitso' ) . '</span>
 					</label>
 				</div>
 			</div>
@@ -80,7 +80,7 @@ function arts_comment_form_defaults() {
 		<div class="row form__row">
 			<div class="col form__col">
 				<label class="input-float js-input-float">
-					<textarea id="comment" name="comment" class="input-float__input input-float__input_textarea" cols="45" rows="8" maxlength="65525" required="required"></textarea><span class="input-float__label">' . esc_html_x( 'Comment', 'noun', 'rubenz' ) . '</span>
+					<textarea id="comment" name="comment" class="input-float__input input-float__input_textarea" cols="45" rows="8" maxlength="65525" required="required"></textarea><span class="input-float__label">' . esc_html_x( 'Comment', 'noun', 'fitso' ) . '</span>
 				</label>
 			</div>
 		</div>

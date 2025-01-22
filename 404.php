@@ -1,8 +1,8 @@
 <?php
-	$page_title    = get_theme_mod( '404_title', esc_html__( 'Page not Found', 'rubenz' ) );
-	$page_subtitle = get_theme_mod( '404_message', esc_html__( 'It looks like nothing found here. Try to navigate the menu or return to the home page.', 'rubenz' ) );
-	$page_big      = get_theme_mod( '404_big', esc_html__( '404', 'rubenz' ) );
-	$page_button   = get_theme_mod( '404_button', esc_html__( 'Back to homepage', 'rubenz' ) );
+	$page_title    = get_theme_mod( '404_title', esc_html__( 'Page not Found', 'fitso' ) );
+	$page_subtitle = get_theme_mod( '404_message', esc_html__( 'It looks like nothing found here. Try to navigate the menu or return to the home page.', 'fitso' ) );
+	$page_big      = get_theme_mod( '404_big', esc_html__( '404', 'fitso' ) );
+	$page_button   = get_theme_mod( '404_button', esc_html__( 'Back to homepage', 'fitso' ) );
 ?>
 
 <?php get_header(); ?>

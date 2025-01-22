@@ -29,12 +29,12 @@ function arts_enqueue_styles() {
 	wp_enqueue_style( 'font-awesome', ARTS_THEME_URL . '/css/font-awesome.min.css', array(), '4.7.0' );
 	wp_enqueue_style( 'material-icons', ARTS_THEME_URL . '/css/material-icons.min.css', array(), '3.0.1' );
 	wp_enqueue_style( 'magnific-popup', ARTS_THEME_URL . '/css/magnific-popup.min.css', array(), '1.1.0' );
-	wp_enqueue_style( 'rubenz-main-style', ARTS_THEME_URL . '/css/main.css', array(), ARTS_THEME_VERSION );
-	wp_enqueue_style( 'rubenz-theme-style', ARTS_THEME_URL . '/style.css', array(), ARTS_THEME_VERSION );
+	wp_enqueue_style( 'fitso-main-style', ARTS_THEME_URL . '/css/main.css', array(), ARTS_THEME_VERSION );
+	wp_enqueue_style( 'fitso-theme-style', ARTS_THEME_URL . '/style.css', array(), ARTS_THEME_VERSION );
 
 	// fallback font if fonts are not set
 	if ( ! class_exists( 'Kirki' ) || ! $typography_primary || ! $typography_secondary ) {
-		wp_enqueue_style( 'rubenz-fonts', '//fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i', array(), null );
+		wp_enqueue_style( 'fitso-fonts', '//fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i', array(), null );
 
 		$css = "
 		:root {
@@ -43,7 +43,7 @@ function arts_enqueue_styles() {
 		}
 		";
 
-		wp_add_inline_style( 'rubenz-main-style', trim( $css ) );
+		wp_add_inline_style( 'fitso-main-style', trim( $css ) );
 	}
 
 	// hide default Contact Form 7 response boxes if custom modals are enabled
@@ -54,7 +54,7 @@ function arts_enqueue_styles() {
 	}
 
 	if ( $enable_loading_progress ) {
-		wp_add_inline_style( 'rubenz-main-style', trim( '.cursor-progress, .cursor-progress * { cursor: progress; }' ) );
+		wp_add_inline_style( 'fitso-main-style', trim( '.cursor-progress, .cursor-progress * { cursor: progress; }' ) );
 	}
 }
 
@@ -127,13 +127,13 @@ function arts_enqueue_scripts() {
 	wp_enqueue_script( 'scrollmagic', ARTS_THEME_URL . '/js/ScrollMagic.min.js', array(), '2.0.5', true );
 	wp_enqueue_script( 'split-text', ARTS_THEME_URL . '/js/SplitText.min.js', array( 'tweenmax' ), '3.2.4', true );
 	wp_enqueue_script( 'tweenmax', ARTS_THEME_URL . '/js/TweenMax.min.js', array(), '2.1.2', true );
-	wp_enqueue_script( 'rubenz-components', ARTS_THEME_URL . '/js/components.js', $main_script_deps, ARTS_THEME_VERSION, true );
+	wp_enqueue_script( 'fitso-components', ARTS_THEME_URL . '/js/components.js', $main_script_deps, ARTS_THEME_VERSION, true );
 
 	/**
 	 * Enqueue Elementor Frontend Editor Script
 	 */
 	if ( arts_is_elementor_editor_active() ) {
-		wp_enqueue_script( 'rubenz-elementor-preview', ARTS_THEME_URL . '/js/elementor-preview.min.js', array( 'elementor-frontend', 'elementor-inline-editor' ), ARTS_THEME_VERSION, true );
+		wp_enqueue_script( 'fitso-elementor-preview', ARTS_THEME_URL . '/js/elementor-preview.min.js', array( 'elementor-frontend', 'elementor-inline-editor' ), ARTS_THEME_VERSION, true );
 	}
 }
 
@@ -162,7 +162,7 @@ function arts_localize_data() {
 		)
 	);
 
-	$fonts = apply_filters( 'rubenz/frontend/fonts', $fonts );
+	$fonts = apply_filters( 'fitso/frontend/fonts', $fonts );
 
 	$enable_ajax                        = get_theme_mod( 'enable_ajax', false );
 	$ajax_prevent_rules                 = get_theme_mod( 'ajax_prevent_rules' );
@@ -203,7 +203,7 @@ function arts_localize_data() {
 	}
 
 	wp_localize_script(
-		'rubenz-components',
+		'fitso-components',
 		'theme',
 		array(
 			'themeURL'          => esc_js( ARTS_THEME_URL ),
@@ -245,7 +245,7 @@ function arts_localize_data() {
 			--font-secondary: {$typography_secondary['font-family']};
 		}
 	";
-	wp_add_inline_style( 'rubenz-main-style', trim( $css ) );
+	wp_add_inline_style( 'fitso-main-style', trim( $css ) );
 }
 
 /**
@@ -253,7 +253,7 @@ function arts_localize_data() {
  */
 add_action( 'customize_preview_init', 'arts_customize_preview_script' );
 function arts_customize_preview_script() {
-	wp_enqueue_script( 'rubenz-customizer-preview', ARTS_THEME_URL . '/js/customizer.min.js', array(), ARTS_THEME_VERSION, true );
+	wp_enqueue_script( 'fitso-customizer-preview', ARTS_THEME_URL . '/js/customizer.min.js', array(), ARTS_THEME_VERSION, true );
 }
 
 /**
@@ -294,7 +294,7 @@ add_action( 'admin_enqueue_scripts', 'arts_enqueue_admin_assets' );
 if ( ! function_exists( 'arts_enqueue_admin_assets' ) ) {
 	function arts_enqueue_admin_assets() {
 		wp_enqueue_script(
-			'rubenz-admin-notices',
+			'fitso-admin-notices',
 			esc_url( ARTS_THEME_URL . '/js/admin-notices.min.js' ),
 			array(),
 			ARTS_THEME_VERSION,

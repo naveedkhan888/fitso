@@ -21,10 +21,10 @@ class Arts_Walker_Comment extends Walker_Comment {
 		<<?php echo esc_attr( $tag ); ?> id="comment-<?php comment_ID(); ?>" <?php comment_class( '', $comment ); ?>>
 			<div class="comment-body">
 				<?php
-				esc_html_e( 'Pingback:', 'rubenz' );
+				esc_html_e( 'Pingback:', 'fitso' );
 				echo esc_html( '&nbsp;' );
 				?>
-				<?php comment_author_link( $comment ); ?> <?php edit_comment_link( esc_html__( 'Edit', 'rubenz' ), '<span class="edit-link">', '</span>' ); ?>
+				<?php comment_author_link( $comment ); ?> <?php edit_comment_link( esc_html__( 'Edit', 'fitso' ), '<span class="edit-link">', '</span>' ); ?>
 			</div>
 		<?php
 	}
@@ -69,7 +69,7 @@ class Arts_Walker_Comment extends Walker_Comment {
 								<time datetime="<?php comment_time( 'c' ); ?>">
 									<?php
 										/* translators: 1: comment date, 2: comment time */
-										printf( esc_html__( '%1$s at %2$s', 'rubenz' ), get_comment_date( '', $comment ), get_comment_time() );
+										printf( esc_html__( '%1$s at %2$s', 'fitso' ), get_comment_date( '', $comment ), get_comment_time() );
 									?>
 								</time>
 							</a>
@@ -77,7 +77,7 @@ class Arts_Walker_Comment extends Walker_Comment {
 						</div><!-- .comment-metadata -->
 
 						<?php if ( '0' == $comment->comment_approved ) : ?>
-						<p class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'rubenz' ); ?></p>
+						<p class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'fitso' ); ?></p>
 						<?php endif; ?>
 					</footer><!-- .comment-meta -->
 
@@ -96,7 +96,7 @@ class Arts_Walker_Comment extends Walker_Comment {
 							)
 						);
 					?>
-					<?php edit_comment_link( esc_html__( 'Edit', 'rubenz' ), '<span class="edit-link">', '</span>' ); ?>
+					<?php edit_comment_link( esc_html__( 'Edit', 'fitso' ), '<span class="edit-link">', '</span>' ); ?>
 				</div><!-- .comment-content -->
 
 			</article><!-- .comment-body -->

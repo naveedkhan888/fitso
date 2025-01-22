@@ -40,7 +40,7 @@ function arts_posts_pagination( $args = array(), $class = 'pagination' ) {
 			'prev_next'          => false, // hide default prev/next
 			'prev_text'          => '',
 			'next_text'          => '',
-			'screen_reader_text' => esc_html__( 'Posts navigation', 'rubenz' ),
+			'screen_reader_text' => esc_html__( 'Posts navigation', 'fitso' ),
 		)
 	);
 

@@ -64,32 +64,32 @@ if ( $is_elementor_page ) {
 if ( is_category() ) {
 
 	$page_title    = get_category( get_query_var( 'cat' ) )->name;
-	$page_subtitle = esc_html__( 'Posts in category', 'rubenz' );
+	$page_subtitle = esc_html__( 'Posts in category', 'fitso' );
 
 } elseif ( is_author() ) {
 
 	$page_title    = get_userdata( get_query_var( 'author' ) )->display_name;
-	$page_subtitle = esc_html__( 'Posts by author', 'rubenz' );
+	$page_subtitle = esc_html__( 'Posts by author', 'fitso' );
 
 } elseif ( is_tag() ) {
 
 	$page_title    = single_tag_title( '', false );
-	$page_subtitle = esc_html__( 'Posts with tag', 'rubenz' );
+	$page_subtitle = esc_html__( 'Posts with tag', 'fitso' );
 
 } elseif ( is_day() ) {
 
 	$page_title    = get_the_date();
-	$page_subtitle = esc_html__( 'Day archive', 'rubenz' );
+	$page_subtitle = esc_html__( 'Day archive', 'fitso' );
 
 } elseif ( is_month() ) {
 
 	$page_title    = get_the_date( 'F Y' );
-	$page_subtitle = esc_html__( 'Month archive', 'rubenz' );
+	$page_subtitle = esc_html__( 'Month archive', 'fitso' );
 
 } elseif ( is_year() ) {
 
 	$page_title    = get_the_date( 'Y' );
-	$page_subtitle = esc_html__( 'Year archive', 'rubenz' );
+	$page_subtitle = esc_html__( 'Year archive', 'fitso' );
 
 } elseif ( is_home() ) {
 
@@ -97,7 +97,7 @@ if ( is_category() ) {
 
 } elseif ( is_search() ) {
 
-	$default_title = esc_html__( 'Search', 'rubenz' );
+	$default_title = esc_html__( 'Search', 'fitso' );
 	$page_title    = get_theme_mod( 'search_title', $default_title );
 
 } else {
@@ -108,7 +108,7 @@ if ( is_category() ) {
 }
 
 if ( ! $page_title ) {
-	$page_title = esc_html__( 'Blog', 'rubenz' );
+	$page_title = esc_html__( 'Blog', 'fitso' );
 }
 
 if ( $masthead_image_parallax ) {

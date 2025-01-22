@@ -12,8 +12,8 @@ $prev_img;
 $attr_link                          = '';
 $class_link                         = 'col';
 $class_link_prev                    = '';
-$prev_label                         = get_theme_mod( 'portfolio_nav_prev_title', esc_html__( 'Prev', 'rubenz' ) );
-$next_label                         = get_theme_mod( 'portfolio_nav_next_title', esc_html__( 'Next', 'rubenz' ) );
+$prev_label                         = get_theme_mod( 'portfolio_nav_prev_title', esc_html__( 'Prev', 'fitso' ) );
+$next_label                         = get_theme_mod( 'portfolio_nav_next_title', esc_html__( 'Next', 'fitso' ) );
 $enable_portfolio_loop              = get_theme_mod( 'enable_portfolio_loop', true );
 $enable_portfolio_next_first_mobile = get_theme_mod( 'enable_portfolio_next_first_mobile', false );
 

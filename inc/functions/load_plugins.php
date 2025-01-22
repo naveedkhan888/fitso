@@ -10,7 +10,7 @@
  *
  * @package    TGM-Plugin-Activation
  * @subpackage Example
- * @version    2.6.1 for parent theme Rubenz for publication on ThemeForest
+ * @version    2.6.1 for parent theme Fitso for publication on ThemeForest
  * @author     Thomas Griffin, Gary Jones, Juliette Reinders Folmer
  * @copyright  Copyright (c) 2011, Thomas Griffin
  * @license    http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
@@ -30,35 +30,35 @@ function arts_register_required_plugins() {
 	 */
 	$plugins = array(
 		array(
-			'name'     => esc_html__( 'Advanced Custom Fields PRO', 'rubenz' ),
+			'name'     => esc_html__( 'Advanced Custom Fields PRO', 'fitso' ),
 			'slug'     => 'advanced-custom-fields-pro',
 			'source'   => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/acf-pro/plugin' ),
 			'required' => true,
 		),
 		array(
-			'name'     => esc_html__( 'Contact Form 7', 'rubenz' ),
+			'name'     => esc_html__( 'Contact Form 7', 'fitso' ),
 			'slug'     => 'contact-form-7',
 			'required' => false,
 		),
 
 		array(
-			'name'     => esc_html__( 'Elementor', 'rubenz' ),
+			'name'     => esc_html__( 'Elementor', 'fitso' ),
 			'slug'     => 'elementor',
 			'required' => true,
 		),
 		array(
-			'name'     => esc_html__( 'Kirki', 'rubenz' ),
+			'name'     => esc_html__( 'Kirki', 'fitso' ),
 			'slug'     => 'kirki',
 			'required' => true,
 		),
 		array(
-			'name'     => esc_html__( 'Intuitive Custom Post Order', 'rubenz' ),
+			'name'     => esc_html__( 'Intuitive Custom Post Order', 'fitso' ),
 			'slug'     => 'intuitive-custom-post-order',
 			'required' => false,
 		),
 		array(
-			'name'     => esc_html__( 'Rubenz Core', 'rubenz' ),
-			'slug'     => 'rubenz-core',
+			'name'     => esc_html__( 'Fitso Core', 'fitso' ),
+			'slug'     => 'fitso-core',
 			'source'   => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/core-plugin' ),
 			'required' => true,
 			'version'  => '3.1.0',
@@ -70,7 +70,7 @@ function arts_register_required_plugins() {
 	 *
 	 */
 	$config = array(
-		'id'           => 'rubenz',                 // Unique ID for hashing notices for multiple instances of TGMPA.
+		'id'           => 'fitso',                 // Unique ID for hashing notices for multiple instances of TGMPA.
 		'default_path' => '',                      // Default absolute path to bundled plugins.
 		'menu'         => 'tgmpa-install-plugins', // Menu slug.
 		'has_notices'  => true,                    // Show admin notices or not.

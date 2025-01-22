@@ -8,7 +8,7 @@ $priority = 1;
 Kirki::add_section(
 	'blog_masthead',
 	array(
-		'title'    => esc_html__( 'Masthead', 'rubenz' ),
+		'title'    => esc_html__( 'Masthead', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'blog',
 	)
@@ -21,7 +21,7 @@ get_template_part( '/inc/customizer/panels/blog/sections/masthead' );
 Kirki::add_section(
 	'post',
 	array(
-		'title'    => esc_html__( 'Post Display', 'rubenz' ),
+		'title'    => esc_html__( 'Post Display', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'blog',
 	)
@@ -34,7 +34,7 @@ get_template_part( '/inc/customizer/panels/blog/sections/post' );
 Kirki::add_section(
 	'sidebar',
 	array(
-		'title'    => esc_html__( 'Sidebar Display', 'rubenz' ),
+		'title'    => esc_html__( 'Sidebar Display', 'fitso' ),
 		'priority' => $priority ++,
 		'panel'    => 'blog',
 	)
