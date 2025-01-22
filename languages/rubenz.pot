@@ -1,0 +1,1098 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rubenz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-22 06:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.4; wp-5.4.1"
+
+#: inc/functions/acf.php:296
+msgid " 200 (Ultra Light)"
+msgstr ""
+
+#: inc/functions/acf.php:298
+msgid " 300 (Light)"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/sidebar.php:14
+msgid ""
+" This option has an effect only on desktop. On mobile the sidebar is always "
+"below the content."
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:122
+msgid "\"Next\" label"
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:103
+msgid "\"Previous\" label"
+msgstr ""
+
+#. 1: comment date, 2: comment time
+#: inc/classes/class-arts-walker-comment.php:72
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: inc/merlin/merlin-config.php:26
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin/merlin-config.php:42
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#: inc/functions/acf.php:294
+msgid "100 (Thin)"
+msgstr ""
+
+#: inc/functions/acf.php:295
+msgid "100i (Thin Italic)"
+msgstr ""
+
+#: inc/functions/acf.php:297
+msgid "200i (Ultra Light Italic)"
+msgstr ""
+
+#: inc/functions/acf.php:299
+msgid "300i (Light Italic)"
+msgstr ""
+
+#: inc/functions/acf.php:300
+msgid "400 (Regular)"
+msgstr ""
+
+#: inc/functions/acf.php:301
+msgid "400i (Regular Italic)"
+msgstr ""
+
+#: 404.php:4 inc/customizer/panels/theme-options/sections/404.php:68
+msgid "404"
+msgstr ""
+
+#: inc/functions/acf.php:302
+msgid "500 (Medium)"
+msgstr ""
+
+#: inc/functions/acf.php:303
+msgid "500i (Medium Italic)"
+msgstr ""
+
+#: inc/functions/acf.php:304
+msgid "600 (Semi Bold)"
+msgstr ""
+
+#: inc/functions/acf.php:305
+msgid "600i (Semi Bold Italic)"
+msgstr ""
+
+#: inc/functions/acf.php:306
+msgid "700 (Bold)"
+msgstr ""
+
+#: inc/functions/acf.php:307
+msgid "700i (Bold Italic)"
+msgstr ""
+
+#: inc/functions/acf.php:308
+msgid "800 (Extra Bold)"
+msgstr ""
+
+#: inc/functions/acf.php:309
+msgid "800i (Extra Bold Italic)"
+msgstr ""
+
+#: inc/functions/acf.php:310
+msgid "900 (Black)"
+msgstr ""
+
+#: inc/functions/acf.php:311
+msgid "900i (Black Italic)"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:41
+msgid ""
+"A float value between 0.0 and 1.0 defining the momentum reduction damping "
+"factor."
+msgstr ""
+
+#: inc/customizer/header/header.php:41
+msgid "Absolute"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:37
+msgid "Activate"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin/merlin-config.php:40
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: inc/functions/acf.php:187
+msgid "Add Custom Font"
+msgstr ""
+
+#: inc/functions/acf.php:259
+msgid "Add Font File"
+msgstr ""
+
+#: inc/functions/acf.php:17
+msgid "Additional Content"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:65 inc/merlin/merlin-config.php:68
+msgid "Advanced"
+msgstr ""
+
+#: inc/functions/load_plugins.php:43
+msgid "Advanced Custom Fields PRO"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:24
+msgid "AJAX Loading Spinner"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/theme-options.php:18
+msgid "AJAX Transitions"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:69
+msgid "All done. Have fun!"
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:80
+#: inc/customizer/title_tagline/title_tagline.php:122
+msgid "and lower"
+msgstr ""
+
+#: inc/functions/widget_areas.php:18
+msgid "Appears in blog."
+msgstr ""
+
+#: inc/functions/widget_areas.php:46 inc/functions/widget_areas.php:58
+msgid "Appears in Page Footer."
+msgstr ""
+
+#: inc/functions/widget_areas.php:70
+msgid "Appears in the top menu."
+msgstr ""
+
+#: inc/merlin/merlin-filters.php:182 inc/functions/widget_areas.php:30
+msgid ""
+"Appears on desktop in the page header if menu type is set to \"fullscreen\"."
+msgstr ""
+
+#. Author of the theme
+msgid "Artem Semkin"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:59
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:60
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/404.php:84
+msgid "Back to home page"
+msgstr ""
+
+#: 404.php:5
+msgid "Back to homepage"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/404.php:66
+msgid "Big Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:62 template-parts/masthead/masthead.php:111
+msgid "Blog"
+msgstr ""
+
+#: inc/functions/widget_areas.php:16
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/customizer/header/header.php:25
+#: inc/customizer/panels/footer/sections/layout.php:20
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/404.php:82
+msgid "Button Text"
+msgstr ""
+
+#: template-parts/post/partials/post_info.php:37
+msgid "by"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:32
+msgid "Cancel"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:38
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/header/header.php:59
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer/panels/footer/sections/layout.php:76
+msgid "Column"
+msgstr ""
+
+#: comments.php:22
+msgid "Comment"
+msgstr ""
+
+#: comments.php:25
+msgid "Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/functions/load_plugins.php:59
+#: inc/customizer/panels/theme-options/theme-options.php:38
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/customizer/header/header.php:19
+#: inc/customizer/panels/footer/sections/layout.php:14
+msgid "Container"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:32
+msgid "Content Alignment"
+msgstr ""
+
+#. Description of the theme
+msgid "Creative Portfolio AJAX WordPress Theme"
+msgstr ""
+
+#: inc/classes/class-arts-add-custom-fonts.php:224 inc/functions/acf.php:168
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:116
+msgid "Custom JavaScript code"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:39
+msgid "Damping"
+msgstr ""
+
+#: template-parts/masthead/masthead.php:82
+msgid "Day archive"
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:39
+msgid "Desktop screens"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:28
+msgid "Disable this wizard"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/layout-general.php:24
+msgid "Disable to avoid page jump when scrolling on mobile devices."
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:36
+msgid "each time you change the slug."
+msgstr ""
+
+#: inc/classes/class-arts-walker-comment.php:27
+#: inc/classes/class-arts-walker-comment.php:99
+msgid "Edit"
+msgstr ""
+
+#: inc/functions/load_plugins.php:65
+msgid "Elementor"
+msgstr ""
+
+#: inc/functions/comments.php:54
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/cursor-follower.php:9
+msgid "Enable Cursor Follower"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/contact-form-7.php:10
+msgid "Enable Custom Modal Windows on Forms Submit"
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:18
+msgid "Enable custom portfolio slug"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:83
+msgid "Enable Edge Easing"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:46
+msgid "Enable on desktops"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:65
+msgid "Enable on mobiles"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:9
+msgid "Enable Page Smooth Scroll"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:20
+msgid "Enable Page Smooth Scroll on Touch Devices"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:80
+msgid "Enable Parallax"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:64
+msgid "Enable Render by Pixels"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:10
+msgid "Enable Seamless AJAX Transitions"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin/merlin-config.php:44
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: inc/functions/load_plugins.php:71
+msgid "Envato Market"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:74
+msgid "Explore WordPress"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:72
+msgid "Extras"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/layout-general.php:10
+msgid "Fit Fullscreen Height Elements"
+msgstr ""
+
+#: inc/customizer/header/header.php:42
+msgid "Fixed"
+msgstr ""
+
+#: inc/functions/acf.php:210
+msgid "Font Display"
+msgstr ""
+
+#: inc/functions/acf.php:191
+msgid "Font Family Name"
+msgstr ""
+
+#: inc/functions/acf.php:244
+msgid "Font Files"
+msgstr ""
+
+#: inc/functions/acf.php:282
+msgid "Font Weight"
+msgstr ""
+
+#: inc/functions/acf.php:363
+msgid "Fonts are saved and ready to use from"
+msgstr ""
+
+#: inc/customizer/customizer.php:44
+msgid "Footer"
+msgstr ""
+
+#: inc/functions/widget_areas.php:44
+#, php-format
+msgid "Footer %s Column"
+msgstr ""
+
+#: inc/functions/widget_areas.php:56
+msgid "Footer Bottom Row"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/typography.php:69
+msgid "Force Load All Selected Fonts Variations"
+msgstr ""
+
+#: inc/customizer/header/header.php:60
+msgid "Fullscreen"
+msgstr ""
+
+#: inc/merlin/merlin-filters.php:180 inc/functions/widget_areas.php:28
+msgid "Fullscreen Menu Widgets"
+msgstr ""
+
+#: inc/customizer/header/header.php:24
+#: inc/customizer/panels/footer/sections/layout.php:19
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customizer/customizer.php:26
+msgid "General Style"
+msgstr ""
+
+#: template-parts/content/content-none.php:11
+msgid "Get started here!"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:75
+msgid "Get Theme Support"
+msgstr ""
+
+#: inc/customizer/header/header.php:8
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/header/header.php:69
+msgid "Header Smart Contrast"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:51
+msgid "Hi. Welcome back"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://artemsemkin.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://artemsemkin.com/rubenz/wp/"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:49
+msgid "Image Overlay Opacity"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:36
+msgid "Import"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:66
+msgid "Import Content"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:33 inc/merlin/merlin-config.php:34
+#: inc/merlin/merlin-config.php:35
+msgid "Install"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:54
+msgid "Install Child Theme"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:61
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/functions/load_plugins.php:84
+msgid "Intuitive Custom Post Order"
+msgstr ""
+
+#: 404.php:3 inc/customizer/panels/theme-options/sections/404.php:52
+msgid ""
+"It looks like nothing found here. Try to navigate the menu or return to the "
+"home page."
+msgstr ""
+
+#: template-parts/content/content-none.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/cursor-follower.php:10
+msgid "It won't appear on touch devices regardless of this setting."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:98
+msgid ""
+"jQuery selectors. Example: [data-elementor-open-lightbox], .myPreventClass"
+msgstr ""
+
+#: inc/functions/load_plugins.php:78
+msgid "Kirki"
+msgstr ""
+
+#: inc/functions/widget_areas.php:68
+msgid "Language Switcher Area"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:38
+msgid "Later"
+msgstr ""
+
+#: inc/customizer/panels/general-style/general-style.php:24
+#: inc/customizer/panels/footer/footer.php:11
+msgid "Layout"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:58
+msgid "Learn about child themes"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:37
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/sidebar.php:20
+msgid "Left Side"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:56
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:67
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:63
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:45
+msgid "License key"
+msgstr ""
+
+#: inc/functions/acf.php:78
+msgid "List"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/404.php:16
+msgid "Load Page"
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:38
+#: inc/customizer/title_tagline/title_tagline.php:74
+#: inc/customizer/title_tagline/title_tagline.php:116
+msgid "Logo Max Height"
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:66
+msgid "Loop the portfolio navigation"
+msgstr ""
+
+#: inc/functions/nav.php:16
+msgid "Main Menu"
+msgstr ""
+
+#: inc/customizer/panels/blog/blog.php:11
+msgid "Masthead"
+msgstr ""
+
+#: inc/customizer/header/header.php:53
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/404.php:50
+msgid "Message"
+msgstr ""
+
+#: inc/customizer/panels/footer/sections/layout.php:56
+msgid "Mobile Columns Stack Order"
+msgstr ""
+
+#: inc/customizer/panels/footer/sections/layout.php:76
+msgid "Mobile Order"
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:119
+msgid "Mobile screens"
+msgstr ""
+
+#: template-parts/masthead/masthead.php:87
+msgid "Month archive"
+msgstr ""
+
+#: inc/functions/acf.php:215
+msgid "More information"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/theme-options.php:28
+msgid "Mouse Cursor Follower"
+msgstr ""
+
+#: inc/functions/comments.php:44 inc/functions/acf.php:59
+msgid "Name"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:48
+msgid "Need help?"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:30 template-parts/nav/nav-portfolio.php:16
+#: inc/customizer/portfolio/portfolio.php:124
+msgid "Next"
+msgstr ""
+
+#: inc/customizer/header/header.php:70
+msgid "Not recommended for \"Classic\" menu style if you have submenus."
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:33
+msgid "Note: you will need to"
+msgstr ""
+
+#: inc/functions/comments.php:85
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/customizer/panels/footer/sections/layout.php:34
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:20
+#: inc/customizer/panels/blog/sections/post.php:39
+#: inc/customizer/panels/blog/sections/post.php:64
+#: inc/customizer/panels/blog/sections/post.php:89
+#: inc/customizer/panels/blog/sections/post.php:114
+#: inc/customizer/panels/blog/sections/post.php:139
+msgid "Off"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:19
+#: inc/customizer/panels/blog/sections/post.php:38
+#: inc/customizer/panels/blog/sections/post.php:63
+#: inc/customizer/panels/blog/sections/post.php:88
+#: inc/customizer/panels/blog/sections/post.php:113
+#: inc/customizer/panels/blog/sections/post.php:138
+msgid "On"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/theme-options.php:48
+msgid "Page 404"
+msgstr ""
+
+#: 404.php:2 inc/customizer/panels/theme-options/sections/404.php:36
+msgid "Page not Found"
+msgstr ""
+
+#: page.php:23 template-parts/post/post-single.php:15
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:99
+msgid "Parallax Speed"
+msgstr ""
+
+#: inc/functions/password_form.php:14
+msgid "Password"
+msgstr ""
+
+#: inc/classes/class-arts-walker-comment.php:24
+msgid "Pingback:"
+msgstr ""
+
+#: searchform.php:9
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/typography.php:70
+msgid ""
+"Please also note that this may significantly decrease site loading speed if "
+"your font contains a lot of weights & styles. Use with caution."
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:8
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:39
+msgid "portfolio"
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:30
+msgid "Portfolio Slug"
+msgstr ""
+
+#: inc/customizer/header/header.php:36
+msgid "Position"
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:84
+msgid "Position \"next\" portfolio item before \"previous\" on mobile"
+msgstr ""
+
+#: inc/customizer/panels/blog/blog.php:24
+msgid "Post Display"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:19
+msgid "Post Featured Image as Background"
+msgstr ""
+
+#: template-parts/masthead/masthead.php:72
+msgid "Posts by author"
+msgstr ""
+
+#: template-parts/masthead/masthead.php:67
+msgid "Posts in category"
+msgstr ""
+
+#: inc/functions/pagination.php:45
+msgid "Posts navigation"
+msgstr ""
+
+#: template-parts/masthead/masthead.php:77
+msgid "Posts with tag"
+msgstr ""
+
+#: template-parts/nav/nav-portfolio.php:15
+#: inc/customizer/portfolio/portfolio.php:105
+msgid "Prev"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:97
+msgid "Prevent elements from being AJAX triggered"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/404.php:13
+msgid "Preview"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/typography.php:33
+msgid "Primary Font"
+msgstr ""
+
+#: inc/functions/acf.php:40
+msgid "Properties"
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:79
+#: inc/customizer/title_tagline/title_tagline.php:121
+msgid "px"
+msgstr ""
+
+#: template-parts/post/partials/post_read_more.php:1
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content/content-none.php:11
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: inc/functions/acf.php:216
+msgid "related to \"font-display\" descriptor."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:65
+msgid ""
+"Render every frame in integer pixel values, set to true to improve scrolling "
+"performance."
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:16
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:27
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:39
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/sidebar.php:21
+msgid "Right Side"
+msgstr ""
+
+#. Name of the theme
+msgid "Rubenz"
+msgstr ""
+
+#: inc/functions/load_plugins.php:51
+msgid "Rubenz Core"
+msgstr ""
+
+#: inc/functions/acf.php:360
+msgid "Save Changes"
+msgstr ""
+
+#: template-parts/masthead/masthead.php:100
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/typography.php:51
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/functions/acf.php:285
+msgid "Select a font weight of the uploaded font file"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:133
+msgid "Show \"More\" Button"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:13
+msgid "Show All info"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:108
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:58
+msgid "Show Categories"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:83
+msgid "Show Comments Counter"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:33
+msgid "Show Date"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/post.php:14
+msgid "Show post information (posted date, author, comments, etc...)."
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:55
+msgid "Show prev / next portfolio navigation on portfolio item pages"
+msgstr ""
+
+#: inc/customizer/panels/blog/blog.php:37
+msgid "Sidebar Display"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/sidebar.php:13
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:29
+msgid "Skip"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/theme-options.php:8
+msgid "Smooth Scroll"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:18
+msgid "Solid Color"
+msgstr ""
+
+#: template-parts/content/content-none.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:31
+msgid "Start"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:76
+msgid "Start Customizing"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/masthead.php:13
+msgid "Style"
+msgstr ""
+
+#: inc/functions/acf.php:21
+msgid "Subheading"
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:77
+msgid "Tablet screens"
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/ajax-transitions.php:117
+msgid ""
+"The code inserted below will be executed after each AJAX transition. This "
+"may be useful for compatibility with 3rd party scripts."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:40
+msgid "The lower the value is, the more smooth the scrolling will be."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:64
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press "
+"\"Next\" to continue the setup wizard."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:84
+msgid "The scroll will slow down with ease when reaching the page edges."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:46
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: inc/customizer/customizer.php:75
+msgid "Theme Options"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:24
+msgid "Theme Setup"
+msgstr ""
+
+#: inc/functions/password_form.php:13
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/layout-general.php:11
+msgid ""
+"This option calculates the full height elements to fit the entire screen "
+"considering the height of bottom navigation bar."
+msgstr ""
+
+#: inc/customizer/header/header.php:54
+msgid ""
+"This option has an effect only on desktop. On mobile there is always a "
+"fullscreen overlay menu."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/smooth-scroll.php:21
+msgid ""
+"This option is NOT recommended as it replaces native momentum scroll "
+"experience. Use with caution!"
+msgstr ""
+
+#: inc/customizer/panels/footer/sections/layout.php:35
+msgid ""
+"This setting creates a widget area per each column. You can edit your "
+"widgets in WordPress admin panel."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:52
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: inc/customizer/panels/theme-options/sections/404.php:34
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/panels/general-style/general-style.php:11
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/panels/general-style/sections/layout-general.php:23
+msgid "Update Fullscreen Height Elements on Window Resize"
+msgstr ""
+
+#: inc/customizer/portfolio/portfolio.php:35
+msgid "update your permalinks"
+msgstr ""
+
+#: inc/functions/acf.php:266
+msgid "Upload .woff or .woff2 font file"
+msgstr ""
+
+#: inc/customizer/title_tagline/title_tagline.php:17
+msgid ""
+"Upload site logo in @2x resolution for smooth display on high-dpi screens."
+msgstr ""
+
+#: inc/functions/acf.php:97
+msgid "Value"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:73
+msgid "View your website"
+msgstr ""
+
+#: inc/functions/comments.php:64
+msgid "Website"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin/merlin-config.php:50
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/functions/acf.php:365
+msgid "WordPress Customizer."
+msgstr ""
+
+#: template-parts/masthead/masthead.php:92
+msgid "Year archive"
+msgstr ""
+
+#: inc/customizer/panels/blog/sections/sidebar.php:15
+msgid ""
+"You can also disable blog sidebar from the admin panel by removing all the "
+"widgets that it contains."
+msgstr ""
+
+#: inc/customizer/panels/footer/sections/layout.php:57
+msgid ""
+"You can control how your columns stack on mobile screens. For example, you "
+"can place copyright column very first on desktop and reorder it as very last "
+"on mobile."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:53
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:55
+msgid "You're good to go!"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:62
+msgid "You're up to speed!"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:57
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: inc/classes/class-arts-walker-comment.php:80
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Theme Author
+#: inc/merlin/merlin-config.php:71
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:47
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
