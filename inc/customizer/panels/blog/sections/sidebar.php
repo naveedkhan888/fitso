@@ -6,7 +6,7 @@ $priority = 1;
  * Sidebar Position
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'radio-buttonset',
 		'settings'    => 'sidebar_position',

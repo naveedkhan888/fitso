@@ -6,7 +6,7 @@ $priority = 1;
  * Masthead Layout
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'select',
 		'settings' => 'masthead_style',
@@ -25,7 +25,7 @@ Kirki::add_field(
  * Content Alignment
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'radio-buttonset',
 		'settings' => 'masthead_alignment',
@@ -42,7 +42,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'slider',
 		'settings'        => 'masthead_overlay_opacity',
@@ -73,7 +73,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'switch',
 		'settings'        => 'masthead_image_parallax',
@@ -92,7 +92,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'slider',
 		'settings'        => 'masthead_image_parallax_speed',

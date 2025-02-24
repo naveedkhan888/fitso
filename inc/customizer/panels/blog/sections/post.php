@@ -6,7 +6,7 @@ $priority = 1;
  * Post Show All Info
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'switch',
 		'settings'    => 'post_show_info',
@@ -26,7 +26,7 @@ Kirki::add_field(
  * Post Date
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'post_show_date',
@@ -51,7 +51,7 @@ Kirki::add_field(
  * Post Categories
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'post_show_categories',
@@ -76,7 +76,7 @@ Kirki::add_field(
  * Post Comments Counter
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'post_show_comments_counter',
@@ -101,7 +101,7 @@ Kirki::add_field(
  * Post Author
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'post_show_author',
@@ -126,7 +126,7 @@ Kirki::add_field(
  * Post Read More Button
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'post_show_read_more',

@@ -6,7 +6,7 @@ $post_show_categories       = get_theme_mod( 'post_show_categories', true );
 $post_show_comments_counter = get_theme_mod( 'post_show_comments_counter', true );
 $post_show_author           = get_theme_mod( 'post_show_author', true );
 $date_link                  = get_month_link( get_post_time( 'Y' ), get_post_time( 'm' ) );
-$author                     = arts_get_post_author();
+$author                     = xpertpoint_get_post_author();
 
 ?>
 

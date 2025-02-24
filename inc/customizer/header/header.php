@@ -29,7 +29,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'radio-buttonset',
 		'settings' => 'header_position',
@@ -46,7 +46,7 @@ Kirki::add_field(
 
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'radio-buttonset',
 		'settings'    => 'menu_style',
@@ -63,7 +63,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'switch',
 		'settings'    => 'enhance_header_contrast',

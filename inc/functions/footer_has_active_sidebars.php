@@ -6,7 +6,7 @@
  *
  * @return bool
  */
-function arts_footer_has_active_sidebars() {
+function xpertpoint_footer_has_active_sidebars() {
 	$footer_columns = get_theme_mod( 'footer_columns', 3 );
 
 	for ( $i = 1; $i <= $footer_columns; $i++ ) {

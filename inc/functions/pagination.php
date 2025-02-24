@@ -5,8 +5,8 @@
  *
  * @return void
  */
-add_filter( 'previous_posts_link_attributes', 'arts_filter_previous_posts_link_attributes', 10, 2 );
-function arts_filter_previous_posts_link_attributes() {
+add_filter( 'previous_posts_link_attributes', 'xpertpoint_filter_previous_posts_link_attributes', 10, 2 );
+function xpertpoint_filter_previous_posts_link_attributes() {
 	$attributes = 'class="page-numbers prev elegant-icons arrow_left"';
 	return $attributes;
 }
@@ -16,8 +16,8 @@ function arts_filter_previous_posts_link_attributes() {
  *
  * @return void
  */
-add_filter( 'next_posts_link_attributes', 'arts_filter_next_posts_link_attributes', 10, 2 );
-function arts_filter_next_posts_link_attributes() {
+add_filter( 'next_posts_link_attributes', 'xpertpoint_filter_next_posts_link_attributes', 10, 2 );
+function xpertpoint_filter_next_posts_link_attributes() {
 	$attributes = 'class="page-numbers next elegant-icons arrow_right"';
 	return $attributes;
 }
@@ -29,7 +29,7 @@ function arts_filter_next_posts_link_attributes() {
  *
  * @return void
  */
-function arts_posts_pagination( $args = array(), $class = 'pagination' ) {
+function xpertpoint_posts_pagination( $args = array(), $class = 'pagination' ) {
 	if ( $GLOBALS['wp_query']->max_num_pages <= 1 ) {
 		return;
 	}
@@ -48,7 +48,7 @@ function arts_posts_pagination( $args = array(), $class = 'pagination' ) {
 	$prev_link = get_previous_posts_link( $args['prev_text'] );
 	$next_link = get_next_posts_link( $args['next_text'] );
 	$template  = apply_filters(
-		'arts_navigation_markup_template',
+		'xpertpoint_navigation_markup_template',
 		'
 		<nav class="navigation %1$s" role="navigation">
 			<div class="screen-reader-text d-none">%2$s</div>

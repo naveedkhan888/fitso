@@ -3,7 +3,7 @@
 /**
  * Hide ACF Menu
  */
-if ( ! ARTS_THEME_DEV ) {
+if ( ! XPERTPOINT_THEME_DEV ) {
 	add_filter( 'acf/settings/show_admin', '__return_false' );
 }
 
@@ -147,7 +147,7 @@ if ( function_exists( 'acf_add_local_field_group' ) ) {
 					array(
 						'param'    => 'post_type',
 						'operator' => '==',
-						'value'    => 'arts_portfolio_item',
+						'value'    => 'xpertpoint_portfolio_item',
 					),
 				),
 			),

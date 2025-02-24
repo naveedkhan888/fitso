@@ -478,7 +478,7 @@ function PJAXFinishLoading(data) {
 	return new Promise(function (resolve, reject) {
 
 		// Transition ended event
-		window.dispatchEvent(new CustomEvent('arts/barba/transition/end'));
+		window.dispatchEvent(new CustomEvent('xpertpoint/barba/transition/end'));
 
 		window.SMController.enabled(true);
 		window.SMController.update(true);
@@ -632,7 +632,7 @@ function PJAXInitNewPage(data) {
 					}
 
 					// Transition init new page event
-					window.dispatchEvent(new CustomEvent('arts/barba/transition/init'));
+					window.dispatchEvent(new CustomEvent('xpertpoint/barba/transition/init'));
 
 					// re-init components
 					initComponents($nextContainer, false);
@@ -697,7 +697,7 @@ function PJAXPrepareTransition(data) {
 		var $trigger = $(data.trigger);
 
 		// Transition started event
-		window.dispatchEvent(new CustomEvent('arts/barba/transition/start'));
+		window.dispatchEvent(new CustomEvent('xpertpoint/barba/transition/start'));
 
 		window.$document.off('click');
 		window.$window.off('resize');
@@ -3399,7 +3399,7 @@ function lazyLoad($scope = document, $elements = $document.find('.lazy')) {
 	});
 
 	// destroy lazy instances on new page transition
-	window.$window.one('arts/barba/transition/init', () => {
+	window.$window.one('xpertpoint/barba/transition/init', () => {
 		imagesInstance.destroy();
 		backgroundsInstance.destroy();
 	});
@@ -3684,7 +3684,7 @@ var SmoothScroll = function () {
 	}
 
 	// Destroy instance after page transition
-	window.$window.one('arts/barba/transition/init', () => {
+	window.$window.one('xpertpoint/barba/transition/init', () => {
 		window.SB.destroy();
 	});
 

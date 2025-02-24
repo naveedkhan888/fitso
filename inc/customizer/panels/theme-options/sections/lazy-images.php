@@ -3,7 +3,7 @@
 $priority = 1;
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'switch',
 		'settings'    => 'full_size_images_enabled',
@@ -16,7 +16,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'radio-buttonset',
 		'settings'    => 'lazy_placeholder_type',
@@ -33,7 +33,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'textarea',
 		'settings'        => 'lazy_placeholder_inline',
@@ -51,7 +51,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'image',
 		'settings'        => 'lazy_placeholder_image_url',

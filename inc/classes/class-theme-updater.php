@@ -4,11 +4,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-if ( class_exists( 'Arts_Theme_Updater' ) ) {
+if ( class_exists( 'Xpertpoint_Theme_Updater' ) ) {
 	return;
 }
 
-class Arts_Theme_Updater {
+class Xpertpoint_Theme_Updater {
 	private $strings        = array();
 	private $remote_api_url = null;
 	private $theme_slug     = null;
@@ -90,7 +90,7 @@ class Arts_Theme_Updater {
 				'dismiss_option' => $url,
 				'notice_id'      => 'invalid_license',
 			);
-			\Arts_Admin_Notice_Manager::instance()->warning( $args );
+			\Xpertpoint_Admin_Notice_Manager::instance()->warning( $args );
 		}
 	}
 
@@ -104,15 +104,15 @@ class Arts_Theme_Updater {
 			switch ( $_GET['success'] ) {
 				case 'yes':
 					$args['notice_id'] = 'success_license';
-					\Arts_Admin_Notice_Manager::instance()->success( $args );
+					\Xpertpoint_Admin_Notice_Manager::instance()->success( $args );
 					break;
 				case 'no':
 					$args['notice_id'] = 'error_license';
-					\Arts_Admin_Notice_Manager::instance()->error( $args );
+					\Xpertpoint_Admin_Notice_Manager::instance()->error( $args );
 					break;
 				default:
 					$args['notice_id'] = 'warning_license';
-					\Arts_Admin_Notice_Manager::instance()->warning( $args );
+					\Xpertpoint_Admin_Notice_Manager::instance()->warning( $args );
 					break;
 			}
 		}

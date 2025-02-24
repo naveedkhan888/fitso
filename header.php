@@ -1,7 +1,7 @@
 <?php
 
 $theme_namespace            = 'light';
-$theme_page                 = arts_get_document_option( 'page_main_color_theme' );
+$theme_page                 = xpertpoint_get_document_option( 'page_main_color_theme' );
 $theme_header               = '';
 $class_wrapper_menu         = '';
 $class_wrapper_burger       = '';
@@ -87,7 +87,7 @@ $loop_has_thumbnails = new WP_Query(
 	array(
 		'post_type'      => array(
 			'page',
-			'arts_portfolio_item',
+			'xpertpoint_portfolio_item',
 		),
 		'posts_per_page' => -1,
 		'meta_key'       => '_thumbnail_id',
@@ -128,7 +128,7 @@ $args_menu_fullscreen = array(
 	'menu_class'     => 'menu-overlay js-menu-overlay',
 	'link_before'    => '<div class="menu-overlay__item-wrapper"><span class="split-chars">',
 	'link_after'     => '</span></div>',
-	'walker'         => new Arts_Walker_Nav_Menu_Overlay(),
+	'walker'         => new Xpertpoint_Walker_Nav_Menu_Overlay(),
 );
 
 if ( $menu_style == 'classic' ) {
@@ -210,7 +210,7 @@ if ( $ajax_prevent_header_widgets ) {
 			<?php if ( ! empty( $posts_with_thumbnails ) ) : ?>
 				<?php foreach ( $posts_with_thumbnails as $current_post ) : ?>
 					<?php
-						arts_the_lazy_image(
+						xpertpoint_the_lazy_image(
 							array(
 								'id'        => $current_post['img'],
 								'class'     => array(

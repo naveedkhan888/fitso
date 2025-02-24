@@ -2093,7 +2093,7 @@ class Merlin {
 	 */
 	public function after_content_import_setup() {
 		// Set static homepage.
-		$homepage = arts_get_page_by_title( apply_filters( 'merlin_content_home_page_title', 'Home' ) );
+		$homepage = xpertpoint_get_page_by_title( apply_filters( 'merlin_content_home_page_title', 'Home' ) );
 
 		if ( $homepage ) {
 			update_option( 'page_on_front', $homepage->ID );
@@ -2103,7 +2103,7 @@ class Merlin {
 		}
 
 		// Set static blog page.
-		$blogpage = arts_get_page_by_title( apply_filters( 'merlin_content_blog_page_title', 'Blog' ) );
+		$blogpage = xpertpoint_get_page_by_title( apply_filters( 'merlin_content_blog_page_title', 'Blog' ) );
 
 		if ( $blogpage ) {
 			update_option( 'page_for_posts', $blogpage->ID );
@@ -2118,7 +2118,7 @@ class Merlin {
 	 */
 	public function before_content_import_setup() {
 		// Update the Hello World! post by making it a draft.
-		$hello_world = arts_get_page_by_title( 'Hello World!', OBJECT, 'post' );
+		$hello_world = xpertpoint_get_page_by_title( 'Hello World!', OBJECT, 'post' );
 
 		if ( ! empty( $hello_world ) ) {
 			$hello_world->post_status = 'draft';

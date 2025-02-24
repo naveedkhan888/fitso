@@ -16,8 +16,8 @@ $variant_secondary = array(
 	'500',
 );
 
-$choices_primary   = arts_add_custom_choice();
-$choices_secondary = arts_add_custom_choice();
+$choices_primary   = xpertpoint_add_custom_choice();
+$choices_secondary = xpertpoint_add_custom_choice();
 
 $choices_primary['variant']   = $variant_primary;
 $choices_secondary['variant'] = $variant_secondary;
@@ -26,7 +26,7 @@ $choices_secondary['variant'] = $variant_secondary;
  * Primary Font
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'typography',
 		'settings' => 'font_primary',
@@ -44,7 +44,7 @@ Kirki::add_field(
  * Secondary Font
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'typography',
 		'settings' => 'font_secondary',
@@ -62,7 +62,7 @@ Kirki::add_field(
  * Force Load All Fonts Variations
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'switch',
 		'settings'    => 'force_load_all_fonts_variations',

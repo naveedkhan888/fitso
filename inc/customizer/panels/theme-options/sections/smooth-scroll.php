@@ -3,7 +3,7 @@
 $priority = 1;
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'switch',
 		'settings' => 'enable_smooth_scroll',
@@ -15,7 +15,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'smooth_scroll_elementor_canvas_template_enabled',
@@ -34,7 +34,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'switch',
 		'settings'        => 'enable_smooth_scroll_mobile',
@@ -54,7 +54,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'number',
 		'settings'        => 'smooth_scroll_damping',
@@ -80,7 +80,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'switch',
 		'settings'        => 'smooth_scroll_render_by_pixels',
@@ -100,7 +100,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'switch',
 		'settings'        => 'smooth_scroll_plugin_easing',

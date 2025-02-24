@@ -5,7 +5,7 @@
  *
  * @return array
  */
-function arts_get_woocommerce_urls() {
+function xpertpoint_get_woocommerce_urls() {
 	$urls  = array();
 	$pages = array();
 

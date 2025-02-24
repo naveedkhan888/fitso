@@ -9,7 +9,7 @@ add_filter( 'kirki_telemetry', '__return_false' );
 $priority = 1;
 
 Kirki::add_config(
-	'arts',
+	'xpertpoint',
 	array(
 		'capability'  => 'edit_theme_options',
 		'option_type' => 'theme_mod',

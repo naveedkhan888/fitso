@@ -6,7 +6,7 @@ $priority = 1;
  * 404 Preview Link
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'generic',
 		'settings' => '404_preview_link',
@@ -27,7 +27,7 @@ Kirki::add_field(
  * 404 Title
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'      => 'text',
 		'settings'  => '404_title',
@@ -43,7 +43,7 @@ Kirki::add_field(
  * 404 Message
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'      => 'textarea',
 		'settings'  => '404_message',
@@ -59,7 +59,7 @@ Kirki::add_field(
  * 404 Big
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'      => 'text',
 		'settings'  => '404_big',
@@ -75,7 +75,7 @@ Kirki::add_field(
  * 404 Button
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'      => 'text',
 		'settings'  => '404_button',

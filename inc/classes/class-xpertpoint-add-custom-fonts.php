@@ -2,7 +2,7 @@
 /**
  * Add Custom Fonts & Typekit Fonts
  */
-class Arts_Add_Custom_Fonts {
+class Xpertpoint_Add_Custom_Fonts {
 
 	/**
 	 * New fonts array
@@ -56,7 +56,7 @@ class Arts_Add_Custom_Fonts {
 	 */
 	public function init_hooks() {
 		add_action( 'init', array( $this, 'get_custom_fonts' ) );
-		add_filter( 'arts/kirki_font_choices', array( $this, 'add_custom_fonts' ) );
+		add_filter( 'xpertpoint/kirki_font_choices', array( $this, 'add_custom_fonts' ) );
 	}
 
 	/**
@@ -66,7 +66,7 @@ class Arts_Add_Custom_Fonts {
 		if ( ! class_exists( 'Bsf_Custom_Fonts_Taxonomy' ) ) {
 			return;
 		}
-		update_option( 'arts-custom-fonts', Bsf_Custom_Fonts_Taxonomy::get_fonts() );
+		update_option( 'xpertpoint-custom-fonts', Bsf_Custom_Fonts_Taxonomy::get_fonts() );
 	}
 
 	/**
@@ -74,9 +74,9 @@ class Arts_Add_Custom_Fonts {
 	 */
 	public function prepare_custom_fonts_acf() {
 
-		if ( arts_have_rows( 'custom_fonts', 'option' ) ) {
+		if ( xpertpoint_have_rows( 'custom_fonts', 'option' ) ) {
 			
-			while ( arts_have_rows( 'custom_fonts', 'option' ) ) {
+			while ( xpertpoint_have_rows( 'custom_fonts', 'option' ) ) {
 
 				the_row();
 
@@ -90,8 +90,8 @@ class Arts_Add_Custom_Fonts {
 					'variant' => array(),
 				);
 
-				if ( ! empty( $font_name ) && arts_have_rows( 'font_files', 'option' ) ) {
-					while ( arts_have_rows( 'font_files', 'option' ) ) {
+				if ( ! empty( $font_name ) && xpertpoint_have_rows( 'font_files', 'option' ) ) {
+					while ( xpertpoint_have_rows( 'font_files', 'option' ) ) {
 
 						the_row();
 
@@ -136,7 +136,7 @@ class Arts_Add_Custom_Fonts {
 	 */
 	public function prepare_custom_fonts() {
 
-		$fonts = get_option( 'arts-custom-fonts' );
+		$fonts = get_option( 'xpertpoint-custom-fonts' );
 
 		if ( ! empty( $fonts ) ) {
 			foreach ( $fonts as $font => $key ) {

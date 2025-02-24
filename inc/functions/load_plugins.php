@@ -20,10 +20,10 @@
 /**
  * Include the TGM_Plugin_Activation class.
  */
-require_once ARTS_THEME_PATH . '/inc/classes/class-tgm-plugin-activation.php';
+require_once XPERTPOINT_THEME_PATH . '/inc/classes/class-tgm-plugin-activation.php';
 
-add_action( 'tgmpa_register', 'arts_register_required_plugins' );
-function arts_register_required_plugins() {
+add_action( 'tgmpa_register', 'xpertpoint_register_required_plugins' );
+function xpertpoint_register_required_plugins() {
 	/*
 	 * Array of plugin arrays. Required keys are name and slug.
 	 * If the source is NOT from the .org repo, then source is also required.
@@ -59,7 +59,7 @@ function arts_register_required_plugins() {
 		array(
 			'name'     => esc_html__( 'Fitso Core', 'fitso' ),
 			'slug'     => 'fitso-core',
-			'source'   => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/core-plugin' ),
+			'source'   => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . XPERTPOINT_THEME_SLUG . '/core-plugin' ),
 			'required' => true,
 			'version'  => '3.1.0',
 		),

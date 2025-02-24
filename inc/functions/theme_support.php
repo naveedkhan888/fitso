@@ -5,9 +5,9 @@
  *
  * @return void
  */
-add_action( 'after_setup_theme', 'arts_after_setup_theme' );
-function arts_after_setup_theme() {
-	load_theme_textdomain( 'fitso', ARTS_THEME_PATH . '/languages' );
+add_action( 'after_setup_theme', 'xpertpoint_after_setup_theme' );
+function xpertpoint_after_setup_theme() {
+	load_theme_textdomain( 'fitso', XPERTPOINT_THEME_PATH . '/languages' );
 
 	add_editor_style( 'css/style-editor.css' );
 	add_theme_support( 'automatic-feed-links' );

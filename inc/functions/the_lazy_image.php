@@ -3,8 +3,8 @@
 /**
  * Markup for lazy background/image/video
  */
-if ( ! function_exists( 'arts_the_lazy_image' ) ) {
-	function arts_the_lazy_image( $args ) {
+if ( ! function_exists( 'xpertpoint_the_lazy_image' ) ) {
+	function xpertpoint_the_lazy_image( $args ) {
 		$defaults = array(
 			'id'        => null,
 			'type'      => 'background',
@@ -45,7 +45,7 @@ if ( ! function_exists( 'arts_the_lazy_image' ) ) {
 			$lazy_placeholder_src = $lazy_placeholder_image_url;
 		}
 
-		$lazy_placeholder_src = apply_filters( 'arts/lazy/placeholder', $lazy_placeholder_src );
+		$lazy_placeholder_src = apply_filters( 'xpertpoint/lazy/placeholder', $lazy_placeholder_src );
 
 		$args = wp_parse_args( $args, $defaults );
 
@@ -101,7 +101,7 @@ if ( ! function_exists( 'arts_the_lazy_image' ) ) {
 			$sizes                    = '';
 			$alt                      = get_post_meta( $args['id'], '_wp_attachment_image_alt', true );
 			$full_size_images_enabled = get_theme_mod( 'full_size_images_enabled', false );
-			$enable_optimized_sizes   = apply_filters( 'arts/lazy/enable_optimized_sizes', ! $full_size_images_enabled );
+			$enable_optimized_sizes   = apply_filters( 'xpertpoint/lazy/enable_optimized_sizes', ! $full_size_images_enabled );
 
 			if ( $enable_optimized_sizes ) {
 				$srcset = wp_get_attachment_image_srcset( $args['id'], $args['size'] );

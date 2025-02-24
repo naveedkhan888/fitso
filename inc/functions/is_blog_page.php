@@ -3,7 +3,7 @@
 /**
  * Check if the current page belongs to WordPress blog
  */
-function arts_is_blog_page() {
+function xpertpoint_is_blog_page() {
 	global $post;
 
 	// Post type must be 'post'.

@@ -4,7 +4,7 @@
  * Retrive current post author.
  * Can be used outside of WordPress loop
  */
-function arts_get_post_author() {
+function xpertpoint_get_post_author() {
 	global $post;
 
 	$author_id   = $post->post_author;

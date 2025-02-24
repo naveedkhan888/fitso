@@ -1,6 +1,6 @@
 <?php
 
-$is_elementor_page = arts_is_built_with_elementor();
+$is_elementor_page = xpertpoint_is_built_with_elementor();
 
 get_header();
 get_template_part( 'template-parts/masthead/masthead' );

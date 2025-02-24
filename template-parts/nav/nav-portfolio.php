@@ -18,7 +18,7 @@ $enable_portfolio_loop              = get_theme_mod( 'enable_portfolio_loop', tr
 $enable_portfolio_next_first_mobile = get_theme_mod( 'enable_portfolio_next_first_mobile', false );
 
 $args  = array(
-	'post_type'      => 'arts_portfolio_item',
+	'post_type'      => 'xpertpoint_portfolio_item',
 	'posts_per_page' => -1,
 );
 $posts = get_posts( $args );
@@ -98,7 +98,7 @@ if ( $enable_portfolio_next_first_mobile ) {
 		<div class="section-nav-projects__backgrounds">
 			<?php if ( $prev_post && ! empty( $prev_img ) ) : ?>
 				<?php
-					arts_the_lazy_image(
+					xpertpoint_the_lazy_image(
 						array(
 							'id'        => $prev_img,
 							'class'     => array(
@@ -113,7 +113,7 @@ if ( $enable_portfolio_next_first_mobile ) {
 			<?php endif; ?>
 			<?php if ( $next_post && ! empty( $next_img ) ) : ?>
 				<?php
-					arts_the_lazy_image(
+					xpertpoint_the_lazy_image(
 						array(
 							'id'        => $next_img,
 							'class'     => array(

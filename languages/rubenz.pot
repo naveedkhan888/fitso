@@ -38,7 +38,7 @@ msgid "\"Previous\" label"
 msgstr ""
 
 #. 1: comment date, 2: comment time
-#: inc/classes/class-arts-walker-comment.php:72
+#: inc/classes/class-xpertpoint-walker-comment.php:72
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
@@ -289,7 +289,7 @@ msgstr ""
 msgid "Creative Portfolio AJAX WordPress Theme"
 msgstr ""
 
-#: inc/classes/class-arts-add-custom-fonts.php:224 inc/functions/acf.php:168
+#: inc/classes/class-xpertpoint-add-custom-fonts.php:224 inc/functions/acf.php:168
 msgid "Custom Fonts"
 msgstr ""
 
@@ -321,8 +321,8 @@ msgstr ""
 msgid "each time you change the slug."
 msgstr ""
 
-#: inc/classes/class-arts-walker-comment.php:27
-#: inc/classes/class-arts-walker-comment.php:99
+#: inc/classes/class-xpertpoint-walker-comment.php:27
+#: inc/classes/class-xpertpoint-walker-comment.php:99
 msgid "Edit"
 msgstr ""
 
@@ -710,7 +710,7 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
-#: inc/classes/class-arts-walker-comment.php:24
+#: inc/classes/class-xpertpoint-walker-comment.php:24
 msgid "Pingback:"
 msgstr ""
 
@@ -1083,7 +1083,7 @@ msgid ""
 "wasn't already."
 msgstr ""
 
-#: inc/classes/class-arts-walker-comment.php:80
+#: inc/classes/class-xpertpoint-walker-comment.php:80
 msgid "Your comment is awaiting moderation."
 msgstr ""
 

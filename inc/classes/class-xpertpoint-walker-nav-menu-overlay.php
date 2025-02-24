@@ -1,6 +1,6 @@
 <?php
 
-class Arts_Walker_Nav_Menu_Overlay extends Walker_Nav_Menu {
+class Xpertpoint_Walker_Nav_Menu_Overlay extends Walker_Nav_Menu {
 	/**
 	 * What the class handles.
 	 *
@@ -157,7 +157,7 @@ class Arts_Walker_Nav_Menu_Overlay extends Walker_Nav_Menu {
 		$post_id = url_to_postid( $item->url );
 
 		if ( ! $post_id ) {
-			$post_by_title = arts_get_page_by_title( $item->title );
+			$post_by_title = xpertpoint_get_page_by_title( $item->title );
 			if ( $post_by_title ) {
 				$post_id = $post_by_title->ID;
 			}

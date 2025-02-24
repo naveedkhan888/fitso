@@ -2,7 +2,7 @@
 /**
  * Custom Comment Output
  */
-class Arts_Walker_Comment extends Walker_Comment {
+class Xpertpoint_Walker_Comment extends Walker_Comment {
 
 	/**
 	 * Outputs a pingback comment.

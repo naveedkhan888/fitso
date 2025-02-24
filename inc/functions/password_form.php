@@ -3,8 +3,8 @@
 /**
  * Style Password Form in Protected Posts
  */
-add_filter( 'the_password_form', 'arts_password_form' );
-function arts_password_form() {
+add_filter( 'the_password_form', 'xpertpoint_password_form' );
+function xpertpoint_password_form() {
 	global $post;
 
 	$post          = get_post( $post );
@@ -13,7 +13,7 @@ function arts_password_form() {
 		'post-password-form-wrapper',
 	);
 
-	if ( arts_is_built_with_elementor() ) {
+	if ( xpertpoint_is_built_with_elementor() ) {
 		$classes_array[] = 'container';
 		$classes_array[] = 'section_pt-small';
 		$classes_array[] = 'section_pb-small';

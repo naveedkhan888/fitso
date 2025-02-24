@@ -10,7 +10,7 @@ $sm = intval( get_option( 'elementor_viewport_sm', 480 ) );
  * Retina Logo
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'image',
 		'settings'        => 'custom_logo_retina_url',
@@ -33,7 +33,7 @@ Kirki::add_field(
  * Logo Max Height Desktop
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'slider',
 		'settings'        => 'custom_logo_max_height',
@@ -70,7 +70,7 @@ Kirki::add_field(
  * Logo Max Height Tablet
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'slider',
 		'settings'        => 'custom_logo_max_height_tablet',
@@ -113,7 +113,7 @@ Kirki::add_field(
  * Logo Max Height Mobile
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'slider',
 		'settings'        => 'custom_logo_max_height_mobile',

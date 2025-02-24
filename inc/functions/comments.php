@@ -3,8 +3,8 @@
 /**
  * Custom Fields (author, email, url) for Comment Form
  */
-add_filter( 'comment_form_default_fields', 'arts_filter_comment_form_default_fields' );
-function arts_filter_comment_form_default_fields( $args = array(), $post_id = null ) {
+add_filter( 'comment_form_default_fields', 'xpertpoint_filter_comment_form_default_fields' );
+function xpertpoint_filter_comment_form_default_fields( $args = array(), $post_id = null ) {
 	if ( null === $post_id ) {
 		$post_id = get_the_ID();
 	}
@@ -73,8 +73,8 @@ function arts_filter_comment_form_default_fields( $args = array(), $post_id = nu
 /**
  * Custom Textarea & Submit Button for Comment Form
  */
-add_filter( 'comment_form_defaults', 'arts_comment_form_defaults' );
-function arts_comment_form_defaults() {
+add_filter( 'comment_form_defaults', 'xpertpoint_comment_form_defaults' );
+function xpertpoint_comment_form_defaults() {
 	$args = array(
 		'comment_field' => '
 		<div class="row form__row">

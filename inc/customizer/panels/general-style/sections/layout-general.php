@@ -3,7 +3,7 @@
 $priority = 1;
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'switch',
 		'settings'    => 'enable_fix_mobile_vh',
@@ -16,7 +16,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'switch',
 		'settings'        => 'enable_fix_mobile_vh_update',

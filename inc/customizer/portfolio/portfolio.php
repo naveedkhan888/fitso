@@ -12,7 +12,7 @@ Kirki::add_section(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'switch',
 		'settings' => 'enable_custom_portfolio_slug',
@@ -24,7 +24,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'generic',
 		'description'     => sprintf(
@@ -49,7 +49,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'switch',
 		'settings' => 'enable_portfolio_nav',
@@ -61,7 +61,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'enable_portfolio_loop',
@@ -80,7 +80,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'enable_portfolio_next_first_mobile',
@@ -99,7 +99,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'text',
 		'settings'        => 'portfolio_nav_prev_title',
@@ -118,7 +118,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'text',
 		'settings'        => 'portfolio_nav_next_title',

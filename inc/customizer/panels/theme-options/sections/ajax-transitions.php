@@ -3,7 +3,7 @@
 $priority = 1;
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'switch',
 		'settings' => 'enable_ajax',
@@ -18,7 +18,7 @@ Kirki::add_field(
  * AJAX Loading Spinner
  */
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'generic',
 		'label'           => esc_html__( 'AJAX Loading Spinner', 'fitso' ),
@@ -39,7 +39,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'enable_spinner_desktop',
@@ -58,7 +58,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'enable_spinner_mobile',
@@ -77,7 +77,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'generic',
 		'settings' => 'ajax_transitions_generic_divider' . $priority,
@@ -90,7 +90,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'textarea',
 		'settings'        => 'ajax_prevent_rules',
@@ -109,7 +109,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'ajax_prevent_header_widgets',
@@ -127,9 +127,9 @@ Kirki::add_field(
 	)
 );
 
-if ( class_exists( 'woocommerce' ) && function_exists( 'arts_get_woocommerce_urls' ) ) {
+if ( class_exists( 'woocommerce' ) && function_exists( 'xpertpoint_get_woocommerce_urls' ) ) {
 	Kirki::add_field(
-		'arts',
+		'xpertpoint',
 		array(
 			'type'            => 'checkbox',
 			'settings'        => 'ajax_prevent_woocommerce_pages',
@@ -148,13 +148,13 @@ if ( class_exists( 'woocommerce' ) && function_exists( 'arts_get_woocommerce_url
 	);
 
 	Kirki::add_field(
-		'arts',
+		'xpertpoint',
 		array(
 			'type'            => 'generic',
 			'description'     => sprintf(
 				'%1s:<br><br><strong>%2s</strong>',
 				esc_html__( 'WooCommerce pages with the following URL base will be excluded from AJAX transitions', 'fitso' ),
-				implode( '<br>', arts_get_woocommerce_urls() )
+				implode( '<br>', xpertpoint_get_woocommerce_urls() )
 			),
 			'settings'        => 'ajax_transitions_generic_heading' . $priority,
 			'section'         => 'ajax_transitions',
@@ -179,7 +179,7 @@ if ( class_exists( 'woocommerce' ) && function_exists( 'arts_get_woocommerce_url
 }
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'     => 'generic',
 		'settings' => 'ajax_transitions_generic_divider' . $priority,
@@ -192,7 +192,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'code',
 		'settings'        => 'custom_js_init',
@@ -215,7 +215,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'textarea',
 		'settings'        => 'ajax_update_script_nodes',
@@ -235,7 +235,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'ajax_load_missing_scripts',
@@ -255,7 +255,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'ajax_eval_inline_container_scripts',
@@ -275,7 +275,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'generic',
 		'settings'        => 'ajax_transitions_generic_divider' . $priority,
@@ -295,7 +295,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'textarea',
 		'settings'        => 'ajax_update_head_nodes',
@@ -315,7 +315,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'checkbox',
 		'settings'        => 'ajax_load_missing_styles',

@@ -4,10 +4,10 @@
  * Wrapper for Plugin Function
  * for Elementor
  */
-if ( ! function_exists( 'arts_get_document_option' ) ) {
-	function arts_get_document_option( $option, $post_id = null, $option_default = false ) {
-		if ( did_action( 'elementor/loaded' ) && function_exists( 'arts_elementor_get_document_option' ) ) {
-			return arts_elementor_get_document_option( $option, $post_id, $option_default );
+if ( ! function_exists( 'xpertpoint_get_document_option' ) ) {
+	function xpertpoint_get_document_option( $option, $post_id = null, $option_default = false ) {
+		if ( did_action( 'elementor/loaded' ) && function_exists( 'xpertpoint_elementor_get_document_option' ) ) {
+			return xpertpoint_elementor_get_document_option( $option, $post_id, $option_default );
 		}
 	}
 }
@@ -19,7 +19,7 @@ if ( ! function_exists( 'arts_get_document_option' ) ) {
  * @param string $post_id
  * @return bool
  */
-function arts_is_built_with_elementor( $post_id = null ) {
+function xpertpoint_is_built_with_elementor( $post_id = null ) {
 	if ( ! class_exists( '\Elementor\Plugin' ) ) {
 		return false;
 	}
@@ -46,7 +46,7 @@ function arts_is_built_with_elementor( $post_id = null ) {
  *
  * @return bool
  */
-function arts_is_elementor_editor_active() {
+function xpertpoint_is_elementor_editor_active() {
 	if ( class_exists( '\Elementor\Plugin' ) && \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
 		return true;
 	}
@@ -59,6 +59,6 @@ function arts_is_elementor_editor_active() {
  *
  * @return bool
  */
-function arts_is_elementor_feature_active( $feature_name ) {
+function xpertpoint_is_elementor_feature_active( $feature_name ) {
 	return class_exists( '\Elementor\Plugin' ) && isset( \Elementor\Plugin::instance()->experiments ) && \Elementor\Plugin::instance()->experiments->is_feature_active( $feature_name );
 }

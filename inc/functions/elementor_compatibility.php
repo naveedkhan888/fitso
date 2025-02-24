@@ -3,8 +3,8 @@
 /**
  * Register theme locations for Elementor Theme Builder API
  */
-add_action( 'elementor/theme/register_locations', 'arts_register_elementor_locations' );
-function arts_register_elementor_locations( $elementor_theme_manager ) {
+add_action( 'elementor/theme/register_locations', 'xpertpoint_register_elementor_locations' );
+function xpertpoint_register_elementor_locations( $elementor_theme_manager ) {
 	$elementor_theme_manager->register_location( 'header' );
 	$elementor_theme_manager->register_location( 'footer' );
 	$elementor_theme_manager->register_location( 'popup' );
@@ -16,8 +16,8 @@ function arts_register_elementor_locations( $elementor_theme_manager ) {
  * Elementor Pro AJAX compatibility
  * Enforce widgets assets to load on all the pages
  */
-add_action( 'elementor_pro/init', 'arts_enqueue_elementor_pro_widgets_assets' );
-function arts_enqueue_elementor_pro_widgets_assets() {
+add_action( 'elementor_pro/init', 'xpertpoint_enqueue_elementor_pro_widgets_assets' );
+function xpertpoint_enqueue_elementor_pro_widgets_assets() {
 	$enable_ajax               = get_theme_mod( 'enable_ajax', false );
 	$ajax_load_missing_scripts = get_theme_mod( 'ajax_load_missing_scripts', false );
 	$ajax_load_missing_styles  = get_theme_mod( 'ajax_load_missing_styles', false );
@@ -51,7 +51,7 @@ function arts_enqueue_elementor_pro_widgets_assets() {
  * This prevents some issues when Merlin wizard
  * installs and activates the required plugins
  */
-add_action( 'init', 'arts_remove_elementor_welcome_screen' );
-function arts_remove_elementor_welcome_screen() {
+add_action( 'init', 'xpertpoint_remove_elementor_welcome_screen' );
+function xpertpoint_remove_elementor_welcome_screen() {
 	delete_transient( 'elementor_activation_redirect' );
 }

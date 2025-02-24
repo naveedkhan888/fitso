@@ -1,13 +1,13 @@
 <?php
 
 $footer_columns             = get_theme_mod( 'footer_columns', 3 );
-$page_footer_settings       = arts_get_document_option( 'page_footer_settings' );
+$page_footer_settings       = xpertpoint_get_document_option( 'page_footer_settings' );
 $footer_hide                = false;
 $class_container            = get_theme_mod( 'footer_container', 'container-fluid' );
 $class_row                  = 'align-items-center';
 $class_col                  = '';
 $col_copyright              = 'col-lg-6';
-$footer_has_active_sidebars = arts_footer_has_active_sidebars();
+$footer_has_active_sidebars = xpertpoint_footer_has_active_sidebars();
 $footer_has_bottom_row      = is_active_sidebar( 'footer-sidebar-bottom' );
 
 if ( $class_container == 'container' ) {
@@ -43,7 +43,7 @@ switch ( $footer_columns ) {
  */
 if ( $page_footer_settings ) {
 
-	if ( arts_get_document_option( 'page_footer_hide' ) ) {
+	if ( xpertpoint_get_document_option( 'page_footer_hide' ) ) {
 		$footer_hide = true;
 	}
 }

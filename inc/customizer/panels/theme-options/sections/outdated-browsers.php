@@ -3,7 +3,7 @@
 $priority = 1;
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'        => 'switch',
 		'settings'    => 'outdated_browsers_enabled',
@@ -16,7 +16,7 @@ Kirki::add_field(
 );
 
 Kirki::add_field(
-	'arts',
+	'xpertpoint',
 	array(
 		'type'            => 'generic',
 		'settings'        => 'outdated_browsers_prevew_button',
@@ -27,7 +27,7 @@ Kirki::add_field(
 			'element' => 'input',
 			'type'    => 'button',
 			'class'   => 'button button-secondary',
-			'onclick' => 'javascript:wp.customize.previewer.preview.iframe[0].contentWindow.document.dispatchEvent(new CustomEvent("arts/outdatedbrowser/test"));',
+			'onclick' => 'javascript:wp.customize.previewer.preview.iframe[0].contentWindow.document.dispatchEvent(new CustomEvent("xpertpoint/outdatedbrowser/test"));',
 		),
 		'active_callback' => array(
 			array(

@@ -4,7 +4,7 @@ if ( post_password_required() ) {
 	return;
 }
 
-require_once ARTS_THEME_PATH . '/inc/classes/class-arts-walker-comment.php';
+require_once XPERTPOINT_THEME_PATH . '/inc/classes/class-xpertpoint-walker-comment.php';
 
 ?>
 
@@ -34,7 +34,7 @@ require_once ARTS_THEME_PATH . '/inc/classes/class-arts-walker-comment.php';
 						'avatar_size' => 80,
 						'style'       => 'ol',
 						'short_ping'  => true,
-						'walker'      => new Arts_Walker_Comment(),
+						'walker'      => new Xpertpoint_Walker_Comment(),
 					)
 				);
 			?>

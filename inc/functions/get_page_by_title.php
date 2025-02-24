@@ -1,7 +1,7 @@
 <?php
 
-if ( ! function_exists( 'arts_get_page_by_title' ) ) {
-	function arts_get_page_by_title( $page_title, $output = OBJECT, $post_type = 'page' ) {
+if ( ! function_exists( 'xpertpoint_get_page_by_title' ) ) {
+	function xpertpoint_get_page_by_title( $page_title, $output = OBJECT, $post_type = 'page' ) {
 		$query = new WP_Query(
 			array(
 				'post_type'              => $post_type,

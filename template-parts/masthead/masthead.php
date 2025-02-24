@@ -17,20 +17,20 @@ $masthead_subheading           = '';
 $class_alignment               = '';
 $class_properties              = '';
 $class_meta                    = '';
-$is_elementor_page             = arts_is_built_with_elementor();
+$is_elementor_page             = xpertpoint_is_built_with_elementor();
 $blog_page_id                  = get_option( 'page_for_posts' );
 
 if ( $is_elementor_page ) {
 
 	$class_overlay                 = 'd-none';
 	$thumbnail                     = get_post_thumbnail_id();
-	$video_bg                      = arts_get_field( 'video', get_the_ID() );
-	$masthead_layout               = arts_get_document_option( 'page_masthead_layout' );
-	$masthead_color                = arts_get_document_option( 'page_masthead_color_theme' );
-	$masthead_image_parallax       = arts_get_document_option( 'page_masthead_image_parallax' );
-	$masthead_image_parallax_speed = arts_get_document_option( 'page_masthead_image_parallax_speed' )['size'];
-	$masthead_subheading           = arts_get_field( 'subheading' );
-	$class_alignment               = arts_get_document_option( 'page_masthead_alignment' );
+	$video_bg                      = xpertpoint_get_field( 'video', get_the_ID() );
+	$masthead_layout               = xpertpoint_get_document_option( 'page_masthead_layout' );
+	$masthead_color                = xpertpoint_get_document_option( 'page_masthead_color_theme' );
+	$masthead_image_parallax       = xpertpoint_get_document_option( 'page_masthead_image_parallax' );
+	$masthead_image_parallax_speed = xpertpoint_get_document_option( 'page_masthead_image_parallax_speed' )['size'];
+	$masthead_subheading           = xpertpoint_get_field( 'subheading' );
+	$class_alignment               = xpertpoint_get_document_option( 'page_masthead_alignment' );
 	$class_properties              = $class_alignment;
 	$attrs_section                 = 'data-os-animation=true';
 
@@ -120,7 +120,7 @@ if ( $masthead_image_parallax ) {
 
 switch ( $masthead_layout ) {
 	case 'content_top':
-		$class_layout      = arts_get_document_option( 'page_masthead_image_layout' );
+		$class_layout      = xpertpoint_get_document_option( 'page_masthead_image_layout' );
 		$class_section    .= ' section_pt';
 		$class_background .= ' section-masthead__background_bottom ' . $class_layout;
 		break;
@@ -179,7 +179,7 @@ switch ( $class_alignment ) {
 					<?php endif; ?>
 				</div>
 			</header>
-			<?php if ( arts_have_rows( 'properties' ) ) : ?>
+			<?php if ( xpertpoint_have_rows( 'properties' ) ) : ?>
 				<div class="row section-masthead__properties <?php echo esc_attr( $class_properties ); ?>">
 					<?php while ( have_rows( 'properties' ) ) : ?>
 						<?php the_row(); ?>
@@ -194,7 +194,7 @@ switch ( $class_alignment ) {
 	<?php if ( ! empty( $thumbnail ) ) : ?>
 		<div class="section section-masthead__background <?php echo esc_attr( $class_background ); ?>" <?php echo esc_attr( $attrs_backgorund ); ?>>
 			<?php
-				arts_the_lazy_image(
+				xpertpoint_the_lazy_image(
 					array(
 						'id'    => $thumbnail,
 						'class' => array(

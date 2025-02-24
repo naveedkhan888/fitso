@@ -3,15 +3,15 @@
 /**
  * Import Demo Data
  */
-add_filter( 'merlin_import_files', 'arts_merlin_import_files' );
-function arts_merlin_import_files() {
+add_filter( 'merlin_import_files', 'xpertpoint_merlin_import_files' );
+function xpertpoint_merlin_import_files() {
 	return array(
 		array(
 			'import_file_name'           => esc_html__( 'Fitso Demo Data', 'fitso' ),
-			'import_file_url'            => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/demo-data' ),
-			'import_widget_file_url'     => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/demo-widgets' ),
-			'import_customizer_file_url' => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . ARTS_THEME_SLUG . '/demo-customizer' ),
-			'preview_url'                => esc_url( 'https://artemsemkin.com/' . ARTS_THEME_SLUG . '/wp/' ),
+			'import_file_url'            => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . XPERTPOINT_THEME_SLUG . '/demo-data' ),
+			'import_widget_file_url'     => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . XPERTPOINT_THEME_SLUG . '/demo-widgets' ),
+			'import_customizer_file_url' => esc_url( 'https://artemsemkin.com/wp-json/edd/v1/file/' . XPERTPOINT_THEME_SLUG . '/demo-customizer' ),
+			'preview_url'                => esc_url( 'https://artemsemkin.com/' . XPERTPOINT_THEME_SLUG . '/wp/' ),
 		),
 	);
 }
@@ -19,25 +19,25 @@ function arts_merlin_import_files() {
 /**
  * Child theme screenshot
  */
-add_filter( 'merlin_generate_child_screenshot', 'arts_merlin_generate_child_screenshot' );
-function arts_merlin_generate_child_screenshot() {
-	return ARTS_THEME_PATH . '/inc/merlin/assets/images/screenshot.png';
+add_filter( 'merlin_generate_child_screenshot', 'xpertpoint_merlin_generate_child_screenshot' );
+function xpertpoint_merlin_generate_child_screenshot() {
+	return XPERTPOINT_THEME_PATH . '/inc/merlin/assets/images/screenshot.png';
 }
 
 /**
  * Setup Elementor
  */
-add_action( 'merlin_after_all_import', 'arts_merlin_setup_elementor' );
-add_action( 'pt-ocdi/after_import', 'arts_merlin_setup_elementor' );
-function arts_merlin_setup_elementor() {
+add_action( 'merlin_after_all_import', 'xpertpoint_merlin_setup_elementor' );
+add_action( 'pt-ocdi/after_import', 'xpertpoint_merlin_setup_elementor' );
+function xpertpoint_merlin_setup_elementor() {
 	$cpt_support = get_option( 'elementor_cpt_support' );
 
 	// Update CPT Support
 	if ( ! $cpt_support ) {
-		$cpt_support = array( 'page', 'post', 'arts_portfolio_item' );
+		$cpt_support = array( 'page', 'post', 'xpertpoint_portfolio_item' );
 		update_option( 'elementor_cpt_support', $cpt_support );
-	} elseif ( ! in_array( 'arts_portfolio_item', $cpt_support ) ) {
-		$cpt_support[] = 'arts_portfolio_item';
+	} elseif ( ! in_array( 'xpertpoint_portfolio_item', $cpt_support ) ) {
+		$cpt_support[] = 'xpertpoint_portfolio_item';
 		update_option( 'elementor_cpt_support', $cpt_support );
 	}
 
@@ -69,7 +69,7 @@ function arts_merlin_setup_elementor() {
 
 	// Update URLs from demo data with the ones pointing to current website
 	if ( class_exists( '\Elementor\Utils' ) ) {
-		$from = 'https://artemsemkin.com/' . ARTS_THEME_SLUG . '/wp/';
+		$from = 'https://artemsemkin.com/' . XPERTPOINT_THEME_SLUG . '/wp/';
 		$to   = trailingslashit( get_site_url() );
 
 		try {
@@ -87,9 +87,9 @@ function arts_merlin_setup_elementor() {
 /**
  * Setup Menu
  */
-add_action( 'merlin_after_all_import', 'arts_merlin_setup_menu' );
-add_action( 'pt-ocdi/after_import', 'arts_merlin_setup_menu' );
-function arts_merlin_setup_menu() {
+add_action( 'merlin_after_all_import', 'xpertpoint_merlin_setup_menu' );
+add_action( 'pt-ocdi/after_import', 'xpertpoint_merlin_setup_menu' );
+function xpertpoint_merlin_setup_menu() {
 	$top_menu = get_term_by( 'name', 'Top Menu', 'nav_menu' );
 
 	set_theme_mod(
@@ -103,11 +103,11 @@ function arts_merlin_setup_menu() {
 /**
  * Setup Front/Blog Pages
  */
-add_action( 'merlin_after_all_import', 'arts_merlin_setup_front_blog_pages' );
-add_action( 'pt-ocdi/after_import', 'arts_merlin_setup_front_blog_pages' );
-function arts_merlin_setup_front_blog_pages() {
-	$front_page = arts_get_page_by_title( 'Portfolio Slider Headings' );
-	$blog_page  = arts_get_page_by_title( 'Blog' );
+add_action( 'merlin_after_all_import', 'xpertpoint_merlin_setup_front_blog_pages' );
+add_action( 'pt-ocdi/after_import', 'xpertpoint_merlin_setup_front_blog_pages' );
+function xpertpoint_merlin_setup_front_blog_pages() {
+	$front_page = xpertpoint_get_page_by_title( 'Portfolio Slider Headings' );
+	$blog_page  = xpertpoint_get_page_by_title( 'Blog' );
 
 	update_option( 'show_on_front', 'page' );
 
@@ -123,9 +123,9 @@ function arts_merlin_setup_front_blog_pages() {
 /**
  * Setup Date Format
  */
-add_action( 'merlin_after_all_import', 'arts_merlin_setup_date_format' );
-add_action( 'pt-ocdi/after_import', 'arts_merlin_setup_date_format' );
-function arts_merlin_setup_date_format() {
+add_action( 'merlin_after_all_import', 'xpertpoint_merlin_setup_date_format' );
+add_action( 'pt-ocdi/after_import', 'xpertpoint_merlin_setup_date_format' );
+function xpertpoint_merlin_setup_date_format() {
 	update_option( 'date_format', 'd M Y' );
 }
 
@@ -133,9 +133,9 @@ function arts_merlin_setup_date_format() {
  * Setup Intuitive Custom Post Order
  * Define sortable post types
  */
-add_action( 'merlin_after_all_import', 'arts_merlin_setup_hicpo' );
-add_action( 'pt-ocdi/after_import', 'arts_merlin_setup_hicpo' );
-function arts_merlin_setup_hicpo() {
+add_action( 'merlin_after_all_import', 'xpertpoint_merlin_setup_hicpo' );
+add_action( 'pt-ocdi/after_import', 'xpertpoint_merlin_setup_hicpo' );
+function xpertpoint_merlin_setup_hicpo() {
 	add_option( 'hicpo_options', array( 'objects', 'tags' ) );
 
 	$hicpo_options = get_option( 'hicpo_options' );
@@ -144,22 +144,22 @@ function arts_merlin_setup_hicpo() {
 
 	// Sortable custom post types
 	if ( ! $hicpo_objects ) {
-		$hicpo_objects            = array( 'arts_portfolio_item' );
+		$hicpo_objects            = array( 'xpertpoint_portfolio_item' );
 		$hicpo_options['objects'] = $hicpo_objects;
 		update_option( 'hicpo_options', $hicpo_options );
-	} elseif ( ! in_array( 'arts_portfolio_item', $hicpo_objects ) ) {
-		$hicpo_objects[]          = 'arts_portfolio_item';
+	} elseif ( ! in_array( 'xpertpoint_portfolio_item', $hicpo_objects ) ) {
+		$hicpo_objects[]          = 'xpertpoint_portfolio_item';
 		$hicpo_options['objects'] = $hicpo_objects;
 		update_option( 'hicpo_options', $hicpo_options );
 	}
 
 	// Sortable taxonomies
 	if ( ! $hicpo_tags ) {
-		$hicpo_tags            = array( 'arts_portfolio_category' );
+		$hicpo_tags            = array( 'xpertpoint_portfolio_category' );
 		$hicpo_options['tags'] = $hicpo_tags;
 		update_option( 'hicpo_options', $hicpo_options );
-	} elseif ( ! in_array( 'arts_portfolio_category', $hicpo_tags ) ) {
-		$hicpo_tags[]          = 'arts_portfolio_category';
+	} elseif ( ! in_array( 'xpertpoint_portfolio_category', $hicpo_tags ) ) {
+		$hicpo_tags[]          = 'xpertpoint_portfolio_category';
 		$hicpo_options['tags'] = $hicpo_tags;
 		update_option( 'hicpo_options', $hicpo_options );
 	}
@@ -169,9 +169,9 @@ function arts_merlin_setup_hicpo() {
  * Setup permalinks format
  * Needed to make AJAX transitions work
  */
-add_action( 'merlin_after_all_import', 'arts_merlin_setup_permalinks', 99 );
-add_action( 'pt-ocdi/after_import', 'arts_merlin_setup_permalinks', 99 );
-function arts_merlin_setup_permalinks() {
+add_action( 'merlin_after_all_import', 'xpertpoint_merlin_setup_permalinks', 99 );
+add_action( 'pt-ocdi/after_import', 'xpertpoint_merlin_setup_permalinks', 99 );
+function xpertpoint_merlin_setup_permalinks() {
 	global $wp_rewrite;
 
 	// Set permalink structure
@@ -187,9 +187,9 @@ function arts_merlin_setup_permalinks() {
  * Unset all widgets
  * from default blog sidebar
  */
-add_action( 'merlin_widget_importer_before_widgets_import', 'arts_unset_default_sidebar_widgets' );
-add_action( 'pt-ocdi/widget_importer_before_widgets_import', 'arts_unset_default_sidebar_widgets' );
-function arts_unset_default_sidebar_widgets() {
+add_action( 'merlin_widget_importer_before_widgets_import', 'xpertpoint_unset_default_sidebar_widgets' );
+add_action( 'pt-ocdi/widget_importer_before_widgets_import', 'xpertpoint_unset_default_sidebar_widgets' );
+function xpertpoint_unset_default_sidebar_widgets() {
 	// empty default blog sidebar
 	$widget_areas = array(
 		'blog-sidebar' => array(),

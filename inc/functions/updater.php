@@ -1,17 +1,17 @@
 <?php
 
 // Includes the files needed for the theme updater
-if ( ! class_exists( 'Arts_Theme_Updater' ) ) {
-	require_once ARTS_THEME_PATH . '/inc/classes/class-theme-updater.php';
+if ( ! class_exists( 'Xpertpoint_Theme_Updater' ) ) {
+	require_once XPERTPOINT_THEME_PATH . '/inc/classes/class-theme-updater.php';
 }
 
 // Loads the updater classes
-new Arts_Theme_Updater(
+new Xpertpoint_Theme_Updater(
 	// Config settings
 	array(
 		'remote_api_url' => 'https://artemsemkin.com/wp-json/',
-		'theme_slug'     => ARTS_THEME_SLUG, // Theme slug
-		'version'        => ARTS_THEME_VERSION, // The current version of this theme
+		'theme_slug'     => XPERTPOINT_THEME_SLUG, // Theme slug
+		'version'        => XPERTPOINT_THEME_VERSION, // The current version of this theme
 	),
 	// Strings
 	array(

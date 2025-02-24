@@ -15,9 +15,9 @@ $wizard      = new Merlin(
 		'license_step'         => true, // EDD license activation step.
 		'license_required'     => false, // Require the license activation step.
 		'license_help_url'     => 'https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code', // URL for the 'license-tooltip'.
-		'edd_remote_api_url'   => 'https://artemsemkin.com/wp-json/edd/v1/activate/' . ARTS_THEME_SLUG . '/theme', // EDD_Theme_Updater_Admin remote_api_url.
+		'edd_remote_api_url'   => 'https://artemsemkin.com/wp-json/edd/v1/activate/' . XPERTPOINT_THEME_SLUG . '/theme', // EDD_Theme_Updater_Admin remote_api_url.
 		'edd_item_name'        => '', // EDD_Theme_Updater_Admin item_name.
-		'edd_theme_slug'       => ARTS_THEME_SLUG, // EDD_Theme_Updater_Admin item_slug.
+		'edd_theme_slug'       => XPERTPOINT_THEME_SLUG, // EDD_Theme_Updater_Admin item_slug.
 		'ready_big_button_url' => '', // Link for the big button on the ready step.
 	),
 	$strings = array(
